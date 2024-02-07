@@ -5,35 +5,42 @@
     box-sizing: border-box
 
 @font-face
-    font-family: 'LexendT'
-    src: url(../fonts/Lexend-Medium.ttf)
+    font-family: 'Suiss'
+    src: url(../fonts/Suisselntl-Medium.otf)
     font-weight: 500
     font-style: normal
     font-display: swap
 
 @font-face
-    font-family: 'LexendT'
-    src: url(../fonts/Lexend-Regular.ttf)
+    font-family: 'Suiss'
+    src: url(../fonts/Suisselntl-Regular.otf)
     font-weight: 400
     font-style: normal
     font-display: swap
 
 @font-face
-    font-family: 'LexendT'
-    src: url(../fonts/Lexend-SemiBold.ttf)
+    font-family: 'Suiss'
+    src: url(../fonts/Suisselntl-Light.otf)
+    font-weight: 300
+    font-style: normal
+    font-display: swap
+
+@font-face
+    font-family: 'Suiss'
+    src: url(../fonts/Suisselntl-Semibold.otf)
     font-weight: 600
     font-style: normal
     font-display: swap
 
 @font-face
-    font-family: 'LexendT'
-    src: url(../fonts/Lexend-Bold.ttf)
+    font-family: 'Suiss'
+    src: url(../fonts/Suisselntl-Bold.otf)
     font-weight: 700
     font-style: normal
     font-display: swap
 
 html
-    font-family: 'LexendT', sans-serif
+    font-family: 'Suiss', sans-serif
     font-weight: 500
     overflow-x: hidden
 
@@ -182,7 +189,7 @@ $color-pink: #D1A19C
         background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.50) 209.14%)
         width: 74px
         height: 74px
-        border-radius: 18px
+        border-radius: 15px
     &__square1-text1
         color: #242424
         font-size: 27px
@@ -200,7 +207,7 @@ $color-pink: #D1A19C
         background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.50) 209.14%)
         width: 74px
         height: 74px
-        border-radius: 18px
+        border-radius: 15px
     &__square2-text1
         color: #242424
         font-size: 27px
@@ -218,7 +225,7 @@ $color-pink: #D1A19C
         background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.50) 209.14%)
         width: 74px
         height: 74px
-        border-radius: 18px
+        border-radius: 15px
     &__square3-text1
         color: #242424
         font-size: 27px
@@ -643,6 +650,7 @@ header
         font-weight: 400
         line-height: normal
     &__wrapper-first
+        position: relative
         display: flex
         align-items: center
         justify-content: space-between
@@ -712,6 +720,22 @@ header
         justify-content: space-between
         margin-top: 30px
         margin-bottom: 30px
+    &__overlay
+        position: absolute
+        top: 199px
+        left: 793px
+        width: 222px
+        height: 625px
+        border-radius: 15px
+        background: rgba(194, 126, 119, 0.1)
+    &__overlay2
+        position: absolute
+        top: 211px
+        left: 507px
+        width: 268px
+        height: 215px
+        border-radius: 15px
+        background: rgba(194, 126, 119, 0.1)
 
 .margin-auto2
     margin-left: 61px
@@ -882,6 +906,8 @@ header
     &__wrapper-fourth
         border-radius: 15px
         background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%)
+        &_widthmain
+            width: 490px
     &__title-num
         color: #9E9E9E
         font-size: 45px
@@ -917,6 +943,7 @@ header
         margin-top: -75px
     &__img4
         margin-top: -45px
+        margin-left: 60px
 
 .eight-section
     min-height: 938px
@@ -1037,7 +1064,7 @@ header
         background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.50) 209.14%)
         width: 74px
         height: 74px
-        border-radius: 18px
+        border-radius: 15px
         width: 86px
         height: 86px
     &__square1-text1
@@ -1057,7 +1084,7 @@ header
         background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.50) 209.14%)
         width: 74px
         height: 74px
-        border-radius: 18px
+        border-radius: 15px
         width: 86px
         height: 86px
     &__square2-text1
@@ -1077,7 +1104,7 @@ header
         background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.50) 209.14%)
         width: 74px
         height: 74px
-        border-radius: 18px
+        border-radius: 15px
         width: 86px
         height: 86px
     &__square3-text1
@@ -1097,7 +1124,7 @@ header
         margin-left: 30px
     &__label1
         position: absolute
-        top: 773px
+        top: 762px
         left: 588px
         z-index: 2
         color: #3C3C3C
@@ -1106,7 +1133,7 @@ header
         line-height: normal
     &__label2
         position: absolute
-        top: 862px
+        top: 852px
         left: 588px
         z-index: 2
         color: #3C3C3C
@@ -1384,7 +1411,7 @@ input[type='tel']
     &__iframe
         width: 1241px
         height: 672px
-        border-radius: 20px 0 0 20px
+        border-radius: 20px
         position: relative
     &__wrapper-block2
         background: linear-gradient(344deg, rgba(253, 163, 217, 0.15) -167.76%, #F9DBED 69.86%)
@@ -1882,7 +1909,7 @@ input[type='num']
         position: absolute
         border-radius: 50%
         background: rgba(194, 126, 119, 0.20)
-        top: 4480px
+        top: 4404px
         left: 392px
 
 .blog1-part6
@@ -2484,7 +2511,7 @@ input[type='num']
             position: absolute
             border-radius: 50%
             background: rgba(194, 126, 119, 0.20)
-            top: 1974px
+            top: 1957px
             left: 391px
     &__wrapper
         display: flex
@@ -2498,7 +2525,7 @@ input[type='num']
         position: relative
     &__span1
         position: absolute
-        top: 2273px
+        top: 2255px
         left: 406px
         color: rgb(0, 0, 0)
         font-size: 20px
@@ -2509,7 +2536,7 @@ input[type='num']
         padding: 5px 24px
     &__span2
         position: absolute
-        top: 2274px
+        top: 2255px
         left: 874px
         color: rgb(0, 0, 0)
         font-size: 20px
@@ -2546,7 +2573,7 @@ input[type='num']
             position: absolute
             border-radius: 50%
             background: rgba(194, 126, 119, 0.20)
-            top: 3069px
+            top: 3051px
             left: 394px
     &__wrapper
         border-radius: 25px
@@ -2593,7 +2620,7 @@ input[type='num']
             position: absolute
             border-radius: 50%
             background: rgba(194, 126, 119, 0.20)
-            top: 3611px
+            top: 3594px
             left: 394px
     &__wrapper
         display: grid
@@ -2616,7 +2643,7 @@ input[type='num']
             position: absolute
             border-radius: 50%
             background: rgba(194, 126, 119, 0.20)
-            top: 4038px
+            top: 4019px
             left: 394px
 
 .accordion 
@@ -2761,6 +2788,10 @@ input[type='num']
     /* Стили для широкой карточки */
     .seventh-section__wrapper-fourth
         grid-column: span 3 /* Располагаем карточку на всю ширину трех колонок */
+    .seventh-section__img4
+        margin-left: 0
+    .seventh-section__wrapper-fourth_widthmain
+        width: auto
     .seventh-section__block-img
         display: flex
         align-items: center
@@ -2904,6 +2935,12 @@ input[type='num']
         display: flex
         overflow-x: auto
 
+@media ( max-width: 1024px)
+    .fifth-section__overlay
+        left: 613px
+    .fifth-section__overlay2
+        left: 544px
+
 @media ( max-width: 994px)
     .main-section__numtown
         display: block
@@ -2952,6 +2989,11 @@ input[type='num']
         margin-right: 98px
     .fifth-section__money-text
         margin-left: -59px
+    .fifth-section__overlay
+        left: 521px
+        height: 789px
+    .fifth-section__overlay2
+        display: none
     .margin-auto2
         margin-left: -67px
     .margin-auto3
@@ -3091,6 +3133,8 @@ input[type='num']
         margin-right: 12px
     .menu-triger
         display: block
+    .fifth-section__overlay
+        display: none
     .blog-banner__title
         display: none
     .blog-banner__wrapper

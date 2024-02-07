@@ -439,51 +439,59 @@ table {
 }
 
 @font-face {
-  font-family: 'LexendT';
-  src: url(../fonts/Lexend-Medium.ttf);
+  font-family: 'Suiss';
+  src: url(../fonts/Suisselntl-Medium.otf);
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'LexendT';
-  src: url(../fonts/Lexend-Regular.ttf);
+  font-family: 'Suiss';
+  src: url(../fonts/Suisselntl-Regular.otf);
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'LexendT';
-  src: url(../fonts/Lexend-SemiBold.ttf);
+  font-family: 'Suiss';
+  src: url(../fonts/Suisselntl-Light.otf);
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suiss';
+  src: url(../fonts/Suisselntl-Semibold.otf);
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'LexendT';
-  src: url(../fonts/Lexend-Bold.ttf);
+  font-family: 'Suiss';
+  src: url(../fonts/Suisselntl-Bold.otf);
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
-/* line 35, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 42, ../vs_code/html/73-website-allgladko/sass/style.sass */
 html {
-  font-family: 'LexendT', sans-serif;
+  font-family: 'Suiss', sans-serif;
   font-weight: 500;
   overflow-x: hidden;
 }
 
-/* line 40, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 47, ../vs_code/html/73-website-allgladko/sass/style.sass */
 body {
   background: #FFF;
   overflow-x: hidden;
 }
 
-/* line 46, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 53, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .container {
   position: relative;
   max-width: 1280px;
@@ -491,13 +499,13 @@ body {
 }
 
 /* Главная */
-/* line 53, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 60, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section {
   min-height: 1000px;
   margin-bottom: 50px;
 }
 
-/* line 56, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 63, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__header {
   display: flex;
   align-items: center;
@@ -505,23 +513,23 @@ body {
   margin-top: 7px;
 }
 
-/* line 61, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 68, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__ul {
   display: flex;
   align-items: center;
 }
 
-/* line 64, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 71, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__ul-li {
   margin-right: 25px;
 }
 
-/* line 66, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 73, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__ul-li:last-child {
   margin-right: 0;
 }
 
-/* line 68, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 75, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__ul-link {
   color: #000;
   font-size: 18px;
@@ -530,23 +538,23 @@ body {
   text-decoration: none;
 }
 
-/* line 74, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 81, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__ul-link:hover {
   text-decoration: underline;
 }
 
-/* line 76, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 83, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__numtown {
   display: flex;
   align-items: center;
 }
 
-/* line 79, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 86, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__num {
   margin-right: 25px;
 }
 
-/* line 81, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 88, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__call-link {
   display: flex;
   align-items: center;
@@ -556,17 +564,17 @@ body {
             text-decoration: underline */
 }
 
-/* line 88, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 95, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__mobile-menu {
   display: none;
 }
 
-/* line 90, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 97, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__img-pink {
   margin-right: 13px;
 }
 
-/* line 92, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 99, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__tel-pink {
   color: #D1A19C;
   font-size: 20px;
@@ -574,14 +582,14 @@ body {
   line-height: normal;
 }
 
-/* line 97, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 104, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__wrapper {
   display: flex;
   margin-top: 20px;
   position: relative;
 }
 
-/* line 101, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 108, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__rostow {
   color: #000;
   font-size: 20px;
@@ -590,7 +598,7 @@ body {
   margin-bottom: 16px;
 }
 
-/* line 107, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 114, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__title {
   color: #242424;
   font-size: 52px;
@@ -600,7 +608,7 @@ body {
   margin-bottom: 36px;
 }
 
-/* line 114, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 121, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__block1-mini {
   display: flex;
   border: 1px solid #242424;
@@ -613,26 +621,26 @@ body {
   padding-left: 30px;
 }
 
-/* line 124, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 131, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__block1-left {
   margin-right: 25px;
   border-right: 2px solid #fff3f5b8;
   padding-right: 25px;
 }
 
-/* line 128, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 135, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__present {
   display: flex;
   align-items: center;
   margin-bottom: 23px;
 }
 
-/* line 132, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 139, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__present-img {
   margin-right: 11px;
 }
 
-/* line 134, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 141, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__text-stock {
   color: #242424;
   font-size: 24px;
@@ -640,7 +648,7 @@ body {
   line-height: normal;
 }
 
-/* line 139, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 146, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__text-str {
   color: #242424;
   font-size: 24px;
@@ -649,13 +657,13 @@ body {
   margin-bottom: 7px;
 }
 
-/* line 145, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 152, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__money {
   display: block;
   margin-bottom: 23px;
 }
 
-/* line 148, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 155, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__money-first {
   color: #000;
   font-size: 50px;
@@ -663,7 +671,7 @@ body {
   line-height: normal;
 }
 
-/* line 153, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 160, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__money-second {
   color: #5F5F5F;
   font-size: 25px;
@@ -671,7 +679,7 @@ body {
   line-height: normal;
 }
 
-/* line 158, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 165, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__btn {
   color: #FFF;
   font-size: 20px;
@@ -686,19 +694,19 @@ body {
   transition: all .3s;
 }
 
-/* line 170, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 177, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__btn:hover {
   background: linear-gradient(99deg, #f59186 2.28%, #818cf3 159.9%);
 }
 
-/* line 172, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 179, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__block1-right {
   display: grid;
   justify-items: center;
   gap: 6px;
 }
 
-/* line 176, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 183, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__block1-text {
   color: #3C3C3C;
   font-size: 16px;
@@ -706,15 +714,15 @@ body {
   line-height: normal;
 }
 
-/* line 181, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 188, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__square1 {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   width: 74px;
   height: 74px;
-  border-radius: 18px;
+  border-radius: 15px;
 }
 
-/* line 186, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 193, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__square1-text1 {
   color: #242424;
   font-size: 27px;
@@ -724,7 +732,7 @@ body {
   margin-top: 10px;
 }
 
-/* line 193, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 200, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__square1-text2 {
   color: #3C3C3C;
   font-size: 18px;
@@ -733,15 +741,15 @@ body {
   text-align: center;
 }
 
-/* line 199, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 206, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__square2 {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   width: 74px;
   height: 74px;
-  border-radius: 18px;
+  border-radius: 15px;
 }
 
-/* line 204, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 211, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__square2-text1 {
   color: #242424;
   font-size: 27px;
@@ -751,7 +759,7 @@ body {
   margin-top: 10px;
 }
 
-/* line 211, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 218, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__square2-text2 {
   color: #3C3C3C;
   font-size: 18px;
@@ -760,15 +768,15 @@ body {
   text-align: center;
 }
 
-/* line 217, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 224, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__square3 {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   width: 74px;
   height: 74px;
-  border-radius: 18px;
+  border-radius: 15px;
 }
 
-/* line 222, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 229, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__square3-text1 {
   color: #242424;
   font-size: 27px;
@@ -778,7 +786,7 @@ body {
   margin-top: 10px;
 }
 
-/* line 229, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 236, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__square3-text2 {
   color: #3C3C3C;
   font-size: 18px;
@@ -787,47 +795,47 @@ body {
   text-align: center;
 }
 
-/* line 235, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 242, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__block2-mini {
   max-width: 625px;
 }
 
-/* line 237, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 244, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__heart {
   display: flex;
   align-items: center;
   margin-bottom: 33px;
 }
 
-/* line 241, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 248, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__heart-img {
   margin-right: 20px;
 }
 
-/* line 243, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 250, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__folder {
   display: flex;
   align-items: center;
   margin-bottom: 33px;
 }
 
-/* line 247, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 254, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__folder-img {
   margin-right: 20px;
 }
 
-/* line 249, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 256, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__star {
   display: flex;
   align-items: center;
 }
 
-/* line 252, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 259, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__star-img {
   margin-right: 20px;
 }
 
-/* line 254, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 261, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__title-h2 {
   color: #242424;
   font-size: 20px;
@@ -836,7 +844,7 @@ body {
   margin-bottom: 10px;
 }
 
-/* line 260, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 267, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__text-p {
   color: #242424;
   font-size: 18px;
@@ -844,7 +852,7 @@ body {
   line-height: normal;
 }
 
-/* line 265, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 272, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .main-section__img {
   position: absolute;
   top: 4px;
@@ -854,32 +862,32 @@ body {
   height: 600px;
 }
 
-/* line 273, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 280, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .width1 {
   max-width: 462px;
 }
 
-/* line 276, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 283, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .width2 {
   max-width: 320px;
 }
 
-/* line 279, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 286, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .width3 {
   max-width: 478px;
 }
 
-/* line 282, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 289, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .verticale {
   border-right: thick solid #ff0000;
 }
 
-/* line 285, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 292, ../vs_code/html/73-website-allgladko/sass/style.sass */
 header {
   position: relative;
 }
 
-/* line 288, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 295, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .menu-triger {
   display: none;
   width: 25px;
@@ -896,7 +904,7 @@ header {
 	right: 20px
 	top: 20px
 	z-index: 100 */
-/* line 304, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 311, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .menu-popup {
   display: none;
   background: white;
@@ -910,20 +918,20 @@ header {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-/* line 316, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 323, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .menu-popup ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 320, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 327, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .menu-popup li {
   list-style: none;
   margin: 10px 0;
   /* padding: 0 */
 }
 
-/* line 325, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 332, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .mobile-menu__li {
   text-align: center;
   border-bottom: 1px solid #e6e6e6;
@@ -931,7 +939,7 @@ header {
   padding: 13px 0 13px 0;
 }
 
-/* line 331, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 338, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .menu-popup li a {
   font-size: 18px;
   color: #000;
@@ -939,13 +947,13 @@ header {
   text-decoration: none;
 }
 
-/* line 337, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 344, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section {
   min-height: 590px;
   margin-bottom: 30px;
 }
 
-/* line 340, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 347, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section__title {
   color: #242424;
   font-size: 50px;
@@ -955,7 +963,7 @@ header {
   margin-bottom: 14px;
 }
 
-/* line 347, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 354, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section__title-circle {
   width: 55px;
   height: 55px;
@@ -966,14 +974,14 @@ header {
   left: -2px;
 }
 
-/* line 355, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 362, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
 
-/* line 359, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 366, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section__wrapper-first {
   display: flex;
   align-items: center;
@@ -982,7 +990,7 @@ header {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
 }
 
-/* line 365, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 372, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section__wrapper-second {
   display: flex;
   align-items: center;
@@ -991,7 +999,7 @@ header {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
 }
 
-/* line 371, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 378, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section__wrapper-third {
   display: flex;
   align-items: center;
@@ -1000,7 +1008,7 @@ header {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
 }
 
-/* line 377, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 384, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section__wrapper-fourth {
   display: flex;
   align-items: center;
@@ -1009,7 +1017,7 @@ header {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
 }
 
-/* line 383, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 390, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section__img {
   width: 245px;
   height: 245px;
@@ -1017,7 +1025,7 @@ header {
   margin: 10px 0 10px 10px;
 }
 
-/* line 388, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 395, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section__title-mini {
   color: #242424;
   font-size: 27px;
@@ -1026,7 +1034,7 @@ header {
   margin-bottom: 15px;
 }
 
-/* line 394, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 401, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section__text-mini {
   color: #3C3C3C;
   font-size: 20px;
@@ -1034,53 +1042,53 @@ header {
   line-height: 140%;
 }
 
-/* line 399, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 406, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section__width1 {
   max-width: 235px;
 }
 
-/* line 401, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 408, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section__width2 {
   max-width: 220px;
 }
 
-/* line 403, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 410, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section__width3 {
   max-width: 257px;
 }
 
-/* line 405, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 412, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .second-section__width4 {
   max-width: 301px;
 }
 
-/* line 408, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 415, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .title-mini_width1 {
   max-width: 246px;
 }
 
-/* line 411, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 418, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .title-mini_width2 {
   max-width: 166px;
 }
 
-/* line 414, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 421, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .title-mini_width3 {
   max-width: 205px;
 }
 
-/* line 417, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 424, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .title-mini_width4 {
   max-width: 211px;
 }
 
-/* line 420, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 427, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .third-section {
   min-height: 500px;
   margin-bottom: 30px;
 }
 
-/* line 423, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 430, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .third-section__title {
   color: #242424;
   font-size: 50px;
@@ -1090,7 +1098,7 @@ header {
   position: relative;
 }
 
-/* line 430, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 437, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .third-section__title-circle {
   width: 55px;
   height: 55px;
@@ -1101,17 +1109,17 @@ header {
   left: -4px;
 }
 
-/* line 438, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 445, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .third-section__wrapper {
   display: flex;
 }
 
-/* line 440, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 447, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .third-section__wrapper-first {
   margin-right: 67px;
 }
 
-/* line 442, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 449, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .third-section__wrapper-title {
   color: #000;
   font-size: 18px;
@@ -1120,7 +1128,7 @@ header {
   margin-bottom: 25px;
 }
 
-/* line 448, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 455, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .third-section__wrapper-text {
   color: #000;
   font-size: 18px;
@@ -1128,45 +1136,45 @@ header {
   line-height: 160%;
 }
 
-/* line 453, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 460, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .third-section__title-dop1 {
   max-width: 525px;
 }
 
-/* line 455, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 462, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .third-section__title-dop2 {
   max-width: 506px;
 }
 
-/* line 457, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 464, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .third-section__text-dop1 {
   max-width: 605px;
   margin-bottom: 20px;
 }
 
-/* line 460, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 467, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .third-section__text-dop2 {
   max-width: 612px;
 }
 
-/* line 462, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 469, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .third-section__text-dop3 {
   max-width: 540px;
   margin-bottom: 20px;
 }
 
-/* line 465, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 472, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .third-section__text-dop4 {
   max-width: 612px;
 }
 
-/* line 468, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 475, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section {
   min-height: 721px;
   margin-bottom: 30px;
 }
 
-/* line 471, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 478, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__title {
   color: #242424;
   font-size: 50px;
@@ -1176,7 +1184,7 @@ header {
   margin-bottom: 15px;
 }
 
-/* line 478, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 485, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__title-circle {
   width: 55px;
   height: 55px;
@@ -1187,7 +1195,7 @@ header {
   left: -4px;
 }
 
-/* line 486, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 493, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__title-mini {
   color: #FFF;
   font-size: 24px;
@@ -1196,27 +1204,27 @@ header {
   margin-bottom: 15px;
 }
 
-/* line 492, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 499, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__ul {
   margin-bottom: 10px;
 }
 
-/* line 494, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 501, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__ul3 {
   margin-bottom: 40px;
 }
 
-/* line 496, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 503, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__ul4 {
   margin-bottom: 75px;
 }
 
-/* line 498, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 505, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__ul5 {
   margin-bottom: 97px;
 }
 
-/* line 500, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 507, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__li {
   color: #FFF;
   font-size: 16px;
@@ -1224,7 +1232,7 @@ header {
   line-height: 132.8%;
 }
 
-/* line 505, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 512, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__li2 {
   color: #242424;
   font-size: 16px;
@@ -1232,18 +1240,18 @@ header {
   line-height: 132.8%;
 }
 
-/* line 510, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 517, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__wrapper1 {
   display: flex;
   margin-bottom: 20px;
 }
 
-/* line 513, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 520, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__wrapper2 {
   display: flex;
 }
 
-/* line 515, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 522, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__block1 {
   background: #010101;
   position: relative;
@@ -1253,14 +1261,14 @@ header {
   margin-right: 20px;
 }
 
-/* line 522, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 529, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__block1-img {
   position: absolute;
   top: 0px;
   left: 217px;
 }
 
-/* line 526, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 533, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__nums1 {
   color: #FFF;
   font-size: 25px;
@@ -1268,7 +1276,7 @@ header {
   line-height: 132.8%;
 }
 
-/* line 531, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 538, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__nums11 {
   color: #242424;
   font-size: 28px;
@@ -1276,7 +1284,7 @@ header {
   line-height: 132.8%;
 }
 
-/* line 536, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 543, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__nums2 {
   color: rgba(255, 255, 255, 0.5);
   font-size: 18px;
@@ -1284,7 +1292,7 @@ header {
   line-height: 132.8%;
 }
 
-/* line 541, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 548, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__nums22 {
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
@@ -1292,7 +1300,7 @@ header {
   line-height: 132.8%;
 }
 
-/* line 546, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 553, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__money {
   display: flex;
   align-items: center;
@@ -1300,7 +1308,7 @@ header {
   transition: .2s all;
 }
 
-/* line 551, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 558, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__money:hover {
   background: white;
   border-radius: 15px;
@@ -1309,12 +1317,12 @@ header {
   padding: 10px 13px;
 }
 
-/* line 557, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 564, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__img-strelka {
   display: none;
 }
 
-/* line 559, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 566, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__block2 {
   background: url(../img/complex-img2.png);
   padding: 34px 0 43px 40px;
@@ -1322,7 +1330,7 @@ header {
   width: 630px;
 }
 
-/* line 564, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 571, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__block3 {
   background: url(../img/complex-img3.png);
   padding: 34px 0 43px 40px;
@@ -1334,7 +1342,7 @@ header {
   background-size: cover;
 }
 
-/* line 573, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 580, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__block4 {
   background: url(../img/complex-img4.png);
   padding: 34px 0 43px 40px;
@@ -1346,7 +1354,7 @@ header {
   background-size: cover;
 }
 
-/* line 582, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 589, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__block5 {
   background: url(../img/complex-img5.png);
   padding: 34px 0 43px 40px;
@@ -1357,18 +1365,18 @@ header {
   background-size: cover;
 }
 
-/* line 591, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 598, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fourth-section__img-strelka.visible {
   display: inline;
 }
 
-/* line 594, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 601, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section {
   min-height: 732px;
   margin-bottom: 30px;
 }
 
-/* line 597, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 604, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__title {
   color: #242424;
   font-size: 50px;
@@ -1377,7 +1385,7 @@ header {
   margin-bottom: 14px;
 }
 
-/* line 603, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 610, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__title-circle {
   width: 55px;
   height: 55px;
@@ -1388,7 +1396,7 @@ header {
   left: -4px;
 }
 
-/* line 611, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 618, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__wrapper-nav {
   display: flex;
   align-items: center;
@@ -1398,7 +1406,7 @@ header {
   padding-left: 27px;
 }
 
-/* line 618, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 625, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__woman {
   display: flex;
   align-items: center;
@@ -1406,7 +1414,7 @@ header {
   margin-right: 50px;
 }
 
-/* line 623, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 630, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__man {
   display: flex;
   align-items: center;
@@ -1414,12 +1422,12 @@ header {
   margin-right: 210px;
 }
 
-/* line 628, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 635, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__seans {
   margin-right: 141px;
 }
 
-/* line 630, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 637, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__text-mw {
   color: #9B9B9B;
   font-size: 24px;
@@ -1427,7 +1435,7 @@ header {
   line-height: normal;
 }
 
-/* line 635, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 642, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__seans {
   color: #3C3C3C;
   font-size: 20px;
@@ -1435,7 +1443,7 @@ header {
   line-height: normal;
 }
 
-/* line 640, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 647, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__seans-po {
   color: #242424;
   font-size: 20px;
@@ -1443,8 +1451,9 @@ header {
   line-height: normal;
 }
 
-/* line 645, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 652, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__wrapper-first {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1452,18 +1461,18 @@ header {
   margin-bottom: 30px;
 }
 
-/* line 651, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 659, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__hr {
   color: #DCDCDC;
   opacity: 0.3;
 }
 
-/* line 654, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 662, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__uslugi {
   margin-left: 24px;
 }
 
-/* line 656, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 664, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__uslugi-text {
   color: #242424;
   font-size: 20px;
@@ -1471,7 +1480,7 @@ header {
   line-height: normal;
 }
 
-/* line 661, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 669, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__money-text {
   color: #3C3C3C;
   font-size: 20px;
@@ -1480,7 +1489,7 @@ header {
   margin-left: -20px;
 }
 
-/* line 667, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 675, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__money-abon-text {
   color: #242424;
   font-size: 20px;
@@ -1488,7 +1497,7 @@ header {
   line-height: normal;
 }
 
-/* line 672, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 680, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__btn-pink {
   padding: 15px 23px;
   background: linear-gradient(101deg, #C27E77 -23.55%, #FFEDEB 168.35%);
@@ -1502,12 +1511,12 @@ header {
   margin-right: 24px;
 }
 
-/* line 683, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 691, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__btn-pink:hover {
   background: linear-gradient(101deg, #d97c72 -23.55%, #f7d3cf 168.35%);
 }
 
-/* line 685, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 693, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__wrapper-second {
   display: flex;
   align-items: center;
@@ -1516,7 +1525,7 @@ header {
   margin-bottom: 30px;
 }
 
-/* line 691, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 699, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__wrapper-third {
   display: flex;
   align-items: center;
@@ -1525,7 +1534,7 @@ header {
   margin-bottom: 30px;
 }
 
-/* line 697, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 705, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__wrapper-fourth {
   display: flex;
   align-items: center;
@@ -1534,7 +1543,7 @@ header {
   margin-bottom: 30px;
 }
 
-/* line 703, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 711, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__wrapper-fifth {
   display: flex;
   align-items: center;
@@ -1543,7 +1552,7 @@ header {
   margin-bottom: 30px;
 }
 
-/* line 709, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 717, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__wrapper-sixth {
   display: flex;
   align-items: center;
@@ -1552,38 +1561,60 @@ header {
   margin-bottom: 30px;
 }
 
-/* line 716, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 723, ../vs_code/html/73-website-allgladko/sass/style.sass */
+.fifth-section__overlay {
+  position: absolute;
+  top: 199px;
+  left: 793px;
+  width: 222px;
+  height: 625px;
+  border-radius: 15px;
+  background: rgba(194, 126, 119, 0.1);
+}
+
+/* line 731, ../vs_code/html/73-website-allgladko/sass/style.sass */
+.fifth-section__overlay2 {
+  position: absolute;
+  top: 211px;
+  left: 507px;
+  width: 268px;
+  height: 215px;
+  border-radius: 15px;
+  background: rgba(194, 126, 119, 0.1);
+}
+
+/* line 740, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .margin-auto2 {
   margin-left: 61px;
 }
 
-/* line 719, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 743, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .margin-auto3 {
   margin-left: 203px;
 }
 
-/* line 722, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 746, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .margin-auto4 {
   margin-left: 17px;
 }
 
-/* line 725, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 749, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .margin-auto5 {
   margin-left: -6px;
 }
 
-/* line 728, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 752, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .margin-auto6 {
   margin-left: 260px;
 }
 
-/* line 731, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 755, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .sixth-section {
   min-height: 926px;
   margin-bottom: 30px;
 }
 
-/* line 734, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 758, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .sixth-section__title {
   color: #242424;
   font-size: 50px;
@@ -1592,7 +1623,7 @@ header {
   margin-bottom: 14px;
 }
 
-/* line 740, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 764, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .sixth-section__title-circle {
   width: 55px;
   height: 55px;
@@ -1603,7 +1634,7 @@ header {
   left: 1px;
 }
 
-/* line 748, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 772, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .sixth-section__title2 {
   color: #3C3C3C;
   font-size: 32px;
@@ -1612,13 +1643,13 @@ header {
   margin-bottom: 14px;
 }
 
-/* line 754, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 778, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .sixth-section__wrapper1 {
   display: flex;
   margin-bottom: 20px;
 }
 
-/* line 757, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 781, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .sixth-section__wrapper1-first {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   border-radius: 20px;
@@ -1628,7 +1659,7 @@ header {
   padding: 32px 32px 89px 32px;
 }
 
-/* line 764, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 788, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .sixth-section__wrapper1-second {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   border-radius: 20px;
@@ -1638,7 +1669,7 @@ header {
   padding: 32px 32px 89px 32px;
 }
 
-/* line 771, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 795, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .sixth-section__wrapper1-third {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   border-radius: 20px;
@@ -1647,12 +1678,12 @@ header {
   padding: 32px 32px 89px 32px;
 }
 
-/* line 777, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 801, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .sixth-section__wrapper2 {
   display: flex;
 }
 
-/* line 779, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 803, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .sixth-section__wrapper2-first {
   margin-right: 32px;
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
@@ -1662,7 +1693,7 @@ header {
   padding: 25px;
 }
 
-/* line 786, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 810, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .sixth-section__wrapper2-second {
   margin-right: 32px;
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
@@ -1672,7 +1703,7 @@ header {
   padding: 25px;
 }
 
-/* line 793, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 817, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .sixth-section__wrapper2-third {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   border-radius: 25px;
@@ -1681,14 +1712,14 @@ header {
   padding: 25px;
 }
 
-/* line 801, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 825, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .wrapper-profile {
   display: flex;
   align-items: center;
   margin-bottom: 80px;
 }
 
-/* line 805, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 829, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .wrapper-profile__data {
   color: #9B9B9B;
   font-size: 20px;
@@ -1697,7 +1728,7 @@ header {
   margin-bottom: 32px;
 }
 
-/* line 811, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 835, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .wrapper-profile__otzyv {
   color: #242424;
   font-size: 20px;
@@ -1705,22 +1736,22 @@ header {
   line-height: 132.8%;
 }
 
-/* line 816, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 840, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .wrapper-profile__otzyv-width1 {
   max-width: 891px;
 }
 
-/* line 818, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 842, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .wrapper-profile__otzyv-width2 {
   max-width: 739px;
 }
 
-/* line 820, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 844, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .wrapper-profile__otzyv-width3 {
   max-width: 552px;
 }
 
-/* line 822, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 846, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .wrapper-profile__title-name {
   color: #242424;
   font-size: 20px;
@@ -1729,28 +1760,28 @@ header {
   margin-bottom: 16px;
 }
 
-/* line 828, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 852, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .wrapper-profile__img {
   margin-right: 30px;
 }
 
-/* line 830, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 854, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .wrapper-company__block-img {
   text-align: center;
 }
 
-/* line 832, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 856, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .wrapper-company__img {
   margin-bottom: 30px;
 }
 
-/* line 834, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 858, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .wrapper-company__golds {
   text-align: center;
   margin-bottom: 24px;
 }
 
-/* line 837, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 861, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .wrapper-company__otzyv {
   color: #242424;
   font-size: 20px;
@@ -1760,28 +1791,28 @@ header {
   margin-bottom: 24px;
 }
 
-/* line 844, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 868, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .wrapper-company__block-strelka {
   text-align: center;
 }
 
-/* line 847, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 871, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .margin-golds2 {
   margin-bottom: 50px;
 }
 
-/* line 850, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 874, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .margin-golds3 {
   margin-bottom: 40px;
 }
 
-/* line 853, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 877, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section {
   min-height: 457px;
   margin-bottom: 30px;
 }
 
-/* line 856, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 880, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__title {
   color: #242424;
   font-size: 50px;
@@ -1790,7 +1821,7 @@ header {
   margin-bottom: 17px;
 }
 
-/* line 862, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 886, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__title-circle {
   width: 55px;
   height: 55px;
@@ -1801,37 +1832,42 @@ header {
   left: -6px;
 }
 
-/* line 870, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 894, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__wrapper {
   display: flex;
   gap: 10px;
 }
 
-/* line 873, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 897, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__wrapper-first {
   border-radius: 15px;
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
 }
 
-/* line 876, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 900, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__wrapper-second {
   border-radius: 15px;
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
 }
 
-/* line 879, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 903, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__wrapper-third {
   border-radius: 15px;
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
 }
 
-/* line 882, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 906, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__wrapper-fourth {
   border-radius: 15px;
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
 }
 
-/* line 885, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 909, ../vs_code/html/73-website-allgladko/sass/style.sass */
+.seventh-section__wrapper-fourth_widthmain {
+  width: 490px;
+}
+
+/* line 911, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__title-num {
   color: #9E9E9E;
   font-size: 45px;
@@ -1840,7 +1876,7 @@ header {
   margin-left: 20px;
 }
 
-/* line 891, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 917, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__text {
   color: #000;
   text-align: center;
@@ -1852,57 +1888,58 @@ header {
   padding-bottom: 18px;
 }
 
-/* line 900, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 926, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__width1 {
   max-width: 169px;
   margin-top: -2px;
 }
 
-/* line 903, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 929, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__width2 {
   max-width: 169px;
   margin-top: -47px;
 }
 
-/* line 906, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 932, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__width3 {
   max-width: 127px;
   margin-top: -66px;
 }
 
-/* line 909, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 935, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__width4 {
   max-width: 218px;
   margin-top: -38px;
 }
 
-/* line 912, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 938, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__img1 {
   margin-top: -30px;
 }
 
-/* line 914, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 940, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__img2 {
   margin-top: -85px;
 }
 
-/* line 916, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 942, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__img3 {
   margin-top: -75px;
 }
 
-/* line 918, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 944, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .seventh-section__img4 {
   margin-top: -45px;
+  margin-left: 60px;
 }
 
-/* line 921, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 948, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section {
   min-height: 938px;
   margin-bottom: 30px;
 }
 
-/* line 924, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 951, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__title {
   color: #000;
   font-size: 50px;
@@ -1911,7 +1948,7 @@ header {
   margin-bottom: 14px;
 }
 
-/* line 930, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 957, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__title-circle {
   width: 55px;
   height: 55px;
@@ -1922,14 +1959,14 @@ header {
   left: 0px;
 }
 
-/* line 938, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 965, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__wrapper {
   display: flex;
   justify-content: space-between;
   margin-bottom: 38px;
 }
 
-/* line 942, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 969, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__block-title {
   display: flex;
   align-items: center;
@@ -1937,7 +1974,7 @@ header {
   margin-bottom: 24px;
 }
 
-/* line 947, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 974, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__wrapper-title {
   color: #000;
   font-size: 20px;
@@ -1945,7 +1982,7 @@ header {
   line-height: 160%;
 }
 
-/* line 952, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 979, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__wrapper-text {
   color: #000;
   font-size: 18px;
@@ -1953,17 +1990,17 @@ header {
   line-height: 160%;
 }
 
-/* line 957, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 984, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__width1 {
   max-width: 548px;
 }
 
-/* line 959, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 986, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__width2 {
   max-width: 561px;
 }
 
-/* line 961, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 988, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__wrapper2 {
   display: flex;
   justify-content: space-between;
@@ -1971,13 +2008,13 @@ header {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
 }
 
-/* line 966, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 993, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__img-main {
   border-radius: 20px;
   margin: 20px 0 20px 20px;
 }
 
-/* line 969, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 996, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__title-zaiavka {
   color: #242424;
   font-size: 35px;
@@ -1987,7 +2024,7 @@ header {
   padding-top: 33px;
 }
 
-/* line 976, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1003, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__block1-mini {
   display: flex;
   background: #FFF;
@@ -2002,26 +2039,26 @@ header {
   min-width: 677px;
 }
 
-/* line 988, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1015, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__block1-left {
   margin-right: 25px;
   border-right: 2px solid #fff3f5b8;
   padding-right: 25px;
 }
 
-/* line 992, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1019, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__present {
   display: flex;
   align-items: center;
   margin-bottom: 17px;
 }
 
-/* line 996, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1023, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__present-img {
   margin-right: 11px;
 }
 
-/* line 998, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1025, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__text-stock {
   color: #242424;
   font-size: 27px;
@@ -2029,7 +2066,7 @@ header {
   line-height: normal;
 }
 
-/* line 1003, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1030, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__text-str {
   color: #242424;
   font-size: 24px;
@@ -2038,14 +2075,14 @@ header {
   margin-bottom: 4px;
 }
 
-/* line 1009, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1036, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__money {
   display: flex;
   align-items: flex-end;
   gap: 5px;
 }
 
-/* line 1013, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1040, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__money-first {
   color: #000;
   font-size: 50px;
@@ -2053,7 +2090,7 @@ header {
   line-height: normal;
 }
 
-/* line 1018, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1045, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__money-second {
   color: #5F5F5F;
   font-size: 25px;
@@ -2062,14 +2099,14 @@ header {
   margin-bottom: 4px;
 }
 
-/* line 1024, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1051, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__block1-right {
   display: grid;
   justify-items: start;
   gap: 6px;
 }
 
-/* line 1028, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1055, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__block1-text {
   color: #242424;
   font-size: 24px;
@@ -2077,23 +2114,23 @@ header {
   line-height: 121.429%;
 }
 
-/* line 1033, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1060, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__squares {
   display: flex;
   gap: 10px;
 }
 
-/* line 1036, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1063, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__square1 {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   width: 74px;
   height: 74px;
-  border-radius: 18px;
+  border-radius: 15px;
   width: 86px;
   height: 86px;
 }
 
-/* line 1043, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1070, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__square1-text1 {
   color: #242424;
   font-size: 27px;
@@ -2103,7 +2140,7 @@ header {
   margin-top: 10px;
 }
 
-/* line 1050, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1077, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__square1-text2 {
   color: #3C3C3C;
   font-size: 18px;
@@ -2112,17 +2149,17 @@ header {
   text-align: center;
 }
 
-/* line 1056, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1083, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__square2 {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   width: 74px;
   height: 74px;
-  border-radius: 18px;
+  border-radius: 15px;
   width: 86px;
   height: 86px;
 }
 
-/* line 1063, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1090, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__square2-text1 {
   color: #242424;
   font-size: 27px;
@@ -2132,7 +2169,7 @@ header {
   margin-top: 10px;
 }
 
-/* line 1070, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1097, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__square2-text2 {
   color: #3C3C3C;
   font-size: 18px;
@@ -2141,17 +2178,17 @@ header {
   text-align: center;
 }
 
-/* line 1076, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1103, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__square3 {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   width: 74px;
   height: 74px;
-  border-radius: 18px;
+  border-radius: 15px;
   width: 86px;
   height: 86px;
 }
 
-/* line 1083, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1110, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__square3-text1 {
   color: #242424;
   font-size: 27px;
@@ -2161,7 +2198,7 @@ header {
   margin-top: 10px;
 }
 
-/* line 1090, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1117, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__square3-text2 {
   color: #3C3C3C;
   font-size: 18px;
@@ -2170,15 +2207,15 @@ header {
   text-align: center;
 }
 
-/* line 1096, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1123, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__wrapper2-descr {
   margin-left: 30px;
 }
 
-/* line 1098, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1125, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__label1 {
   position: absolute;
-  top: 773px;
+  top: 762px;
   left: 588px;
   z-index: 2;
   color: #3C3C3C;
@@ -2187,10 +2224,10 @@ header {
   line-height: normal;
 }
 
-/* line 1107, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1134, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__label2 {
   position: absolute;
-  top: 862px;
+  top: 852px;
   left: 588px;
   z-index: 2;
   color: #3C3C3C;
@@ -2199,13 +2236,13 @@ header {
   line-height: normal;
 }
 
-/* line 1116, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1143, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__input1 {
   position: relative;
   margin-bottom: 10px;
 }
 
-/* line 1119, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1146, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__input1::placeholder {
   color: #242424;
   font-size: 20px;
@@ -2213,13 +2250,13 @@ header {
   line-height: normal;
 }
 
-/* line 1124, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1151, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__input2 {
   position: relative;
   margin-bottom: 10px;
 }
 
-/* line 1127, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1154, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__input2::placeholder {
   color: #242424;
   font-size: 20px;
@@ -2228,13 +2265,13 @@ header {
   top: 100px;
 }
 
-/* line 1133, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1160, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__block-btn {
   display: flex;
   gap: 21px;
 }
 
-/* line 1136, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1163, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__btn {
   border: none;
   border-radius: 10px;
@@ -2247,12 +2284,12 @@ header {
   cursor: pointer;
 }
 
-/* line 1146, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1173, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .eight-section__btn:hover {
   background: #d79088;
 }
 
-/* line 1149, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1176, ../vs_code/html/73-website-allgladko/sass/style.sass */
 input[type='name'] {
   width: 677px;
   height: 80px;
@@ -2260,13 +2297,13 @@ input[type='name'] {
   border-radius: 10px;
 }
 
-/* line 1154, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1181, ../vs_code/html/73-website-allgladko/sass/style.sass */
 input[type='name']::placeholder {
   padding-left: 15px;
   transform: translate(0px, 10px);
 }
 
-/* line 1158, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1185, ../vs_code/html/73-website-allgladko/sass/style.sass */
 input[type='tel'] {
   width: 677px;
   height: 80px;
@@ -2274,26 +2311,26 @@ input[type='tel'] {
   border-radius: 10px;
 }
 
-/* line 1163, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1190, ../vs_code/html/73-website-allgladko/sass/style.sass */
 input[type='tel']::placeholder {
   padding-left: 15px;
   transform: translate(0px, 10px);
 }
 
 /* Стилизация Чекбокса */
-/* line 1169, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1196, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .label {
   display: flex;
   align-items: center;
   gap: 6px;
 }
 
-/* line 1174, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1201, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .checkbox {
   display: none;
 }
 
-/* line 1177, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1204, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fake {
   display: inline-block;
   width: 20px;
@@ -2304,7 +2341,7 @@ input[type='tel']::placeholder {
   cursor: pointer;
 }
 
-/* line 1186, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1213, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fake::before {
   content: '';
   position: absolute;
@@ -2320,12 +2357,12 @@ input[type='tel']::placeholder {
   transition: .2s;
 }
 
-/* line 1200, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1227, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .checkbox:checked ~ .fake::before {
   opacity: 1;
 }
 
-/* line 1203, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1230, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .text-sogl {
   color: #242424;
   font-size: 16px;
@@ -2333,13 +2370,13 @@ input[type='tel']::placeholder {
   line-height: 121.429%;
 }
 
-/* line 1209, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1236, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section {
   min-height: 1494px;
   margin-bottom: 30px;
 }
 
-/* line 1212, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1239, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__title {
   color: #2D2D2D;
   font-size: 50px;
@@ -2348,7 +2385,7 @@ input[type='tel']::placeholder {
   margin-bottom: 14px;
 }
 
-/* line 1218, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1245, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__title-circle1 {
   width: 55px;
   height: 55px;
@@ -2359,7 +2396,7 @@ input[type='tel']::placeholder {
   left: 0px;
 }
 
-/* line 1226, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1253, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, 312px);
@@ -2367,42 +2404,42 @@ input[type='tel']::placeholder {
   margin-bottom: 30px;
 }
 
-/* line 1231, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1258, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__wrapper-first {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   border-radius: 20px;
 }
 
-/* line 1234, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1261, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__wrapper-second {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   border-radius: 20px;
 }
 
-/* line 1237, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1264, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__wrapper-third {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   border-radius: 20px;
 }
 
-/* line 1240, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1267, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__wrapper-fourth {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   border-radius: 20px;
 }
 
-/* line 1243, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1270, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__img1 {
   border-radius: 20px;
   padding: 10px;
 }
 
-/* line 1246, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1273, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__block1 {
   padding-left: 10px;
 }
 
-/* line 1248, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1275, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__name {
   color: #242424;
   font-size: 20px;
@@ -2411,7 +2448,7 @@ input[type='tel']::placeholder {
   margin-bottom: 8px;
 }
 
-/* line 1254, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1281, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__master {
   color: #242424;
   font-size: 18px;
@@ -2420,7 +2457,7 @@ input[type='tel']::placeholder {
   margin-bottom: 8px;
 }
 
-/* line 1260, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1287, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__stage {
   color: #242424;
   font-size: 18px;
@@ -2429,7 +2466,7 @@ input[type='tel']::placeholder {
   padding-bottom: 22px;
 }
 
-/* line 1266, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1293, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__title2 {
   color: #2D2D2D;
   font-size: 50px;
@@ -2438,7 +2475,7 @@ input[type='tel']::placeholder {
   margin-bottom: 14px;
 }
 
-/* line 1272, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1299, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__title2-circle2 {
   width: 55px;
   height: 55px;
@@ -2449,7 +2486,7 @@ input[type='tel']::placeholder {
   left: -3px;
 }
 
-/* line 1280, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1307, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__card1 {
   background: url(../img/9-sec-img11.png);
   background-position: center;
@@ -2461,7 +2498,7 @@ input[type='tel']::placeholder {
   display: grid;
 }
 
-/* line 1289, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1316, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__card2 {
   background: url(../img/9-sec-img22.png);
   background-position: center;
@@ -2473,7 +2510,7 @@ input[type='tel']::placeholder {
   display: grid;
 }
 
-/* line 1298, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1325, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__card3 {
   background: url(../img/9-sec-img33.png);
   background-position: center;
@@ -2485,7 +2522,7 @@ input[type='tel']::placeholder {
   display: grid;
 }
 
-/* line 1307, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1334, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__wrapper2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, 405px);
@@ -2493,7 +2530,7 @@ input[type='tel']::placeholder {
   margin-bottom: 30px;
 }
 
-/* line 1312, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1339, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__title-mini2 {
   color: #FFF;
   text-shadow: 0px 4px 43px rgba(0, 0, 0, 0.1);
@@ -2503,7 +2540,7 @@ input[type='tel']::placeholder {
   padding: 32px;
 }
 
-/* line 1319, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1346, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__link {
   color: #FFF;
   font-size: 16px;
@@ -2513,12 +2550,12 @@ input[type='tel']::placeholder {
   padding: 175px 0 0px 32px;
 }
 
-/* line 1326, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1353, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__link:hover {
   text-decoration: underline;
 }
 
-/* line 1328, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1355, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__title3 {
   color: #2D2D2D;
   font-size: 50px;
@@ -2527,7 +2564,7 @@ input[type='tel']::placeholder {
   margin-bottom: 15px;
 }
 
-/* line 1334, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1361, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__title3-circle3 {
   width: 55px;
   height: 55px;
@@ -2538,24 +2575,24 @@ input[type='tel']::placeholder {
   left: 0px;
 }
 
-/* line 1342, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1369, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__wrapper3 {
   display: flex;
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   border-radius: 25px;
 }
 
-/* line 1346, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1373, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__wrapper3-block1 {
   margin-right: 85px;
 }
 
-/* line 1348, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1375, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__wrapper3-block2 {
   padding: 15px 0 15px 0;
 }
 
-/* line 1350, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1377, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__wrapper3-title {
   color: #383838;
   font-size: 27px;
@@ -2565,7 +2602,7 @@ input[type='tel']::placeholder {
   padding: 40px 0 0 40px;
 }
 
-/* line 1357, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1384, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .ninth-section__wrapper3-descr {
   color: #282828;
   font-size: 20px;
@@ -2575,13 +2612,13 @@ input[type='tel']::placeholder {
   padding: 0 0 71px 40px;
 }
 
-/* line 1365, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1392, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section {
   min-height: 1146px;
   margin-bottom: 48px;
 }
 
-/* line 1368, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1395, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__title {
   color: #2D2D2D;
   font-size: 50px;
@@ -2590,7 +2627,7 @@ input[type='tel']::placeholder {
   margin-bottom: 15px;
 }
 
-/* line 1374, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1401, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__title-circle1 {
   width: 55px;
   height: 55px;
@@ -2601,20 +2638,20 @@ input[type='tel']::placeholder {
   left: 1px;
 }
 
-/* line 1382, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1409, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__wrapper {
   margin-bottom: 30px;
 }
 
-/* line 1384, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1411, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__iframe {
   width: 1241px;
   height: 672px;
-  border-radius: 20px 0 0 20px;
+  border-radius: 20px;
   position: relative;
 }
 
-/* line 1389, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1416, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__wrapper-block2 {
   background: linear-gradient(344deg, rgba(253, 163, 217, 0.15) -167.76%, #F9DBED 69.86%);
   border-radius: 20px;
@@ -2622,7 +2659,7 @@ input[type='tel']::placeholder {
   position: relative;
 }
 
-/* line 1394, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1421, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__wrapper-block2_img {
   position: absolute;
   top: 114px;
@@ -2631,17 +2668,17 @@ input[type='tel']::placeholder {
   z-index: 1;
 }
 
-/* line 1400, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1427, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__part1 {
   padding: 54px 0 53px 51px;
 }
 
-/* line 1402, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1429, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__part2 {
   padding: 0px 0px 264px 51px;
 }
 
-/* line 1404, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1431, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__address {
   color: #2D2D2D;
   font-size: 20px;
@@ -2650,7 +2687,7 @@ input[type='tel']::placeholder {
   margin-bottom: 24px;
 }
 
-/* line 1410, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1437, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__street {
   color: #2D2D2D;
   font-size: 32px;
@@ -2659,7 +2696,7 @@ input[type='tel']::placeholder {
   margin-bottom: 48px;
 }
 
-/* line 1416, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1443, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__tel {
   color: #2D2D2D;
   font-size: 20px;
@@ -2668,14 +2705,14 @@ input[type='tel']::placeholder {
   margin-bottom: 34px;
 }
 
-/* line 1422, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1449, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__display-tel {
   display: flex;
   align-items: center;
   gap: 26px;
 }
 
-/* line 1426, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1453, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__num {
   color: #2D2D2D;
   font-size: 32px;
@@ -2683,13 +2720,13 @@ input[type='tel']::placeholder {
   line-height: 132.8%;
 }
 
-/* line 1431, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1458, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__part2 {
   display: flex;
   gap: 7px;
 }
 
-/* line 1434, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1461, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__icon {
   width: 60px;
   height: 60px;
@@ -2699,12 +2736,12 @@ input[type='tel']::placeholder {
   cursor: pointer;
 }
 
-/* line 1441, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1468, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__icon:hover {
   background: linear-gradient(150deg, rgba(254, 141, 209, 0.08) -5.09%, rgba(238, 104, 187, 0.5) 209.14%);
 }
 
-/* line 1443, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1470, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__title2 {
   color: #000;
   font-size: 50px;
@@ -2713,7 +2750,7 @@ input[type='tel']::placeholder {
   margin-bottom: 34px;
 }
 
-/* line 1449, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1476, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__title2-circle2 {
   width: 55px;
   height: 55px;
@@ -2724,17 +2761,17 @@ input[type='tel']::placeholder {
   left: -1px;
 }
 
-/* line 1457, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1484, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__wrapper2 {
   display: flex;
 }
 
-/* line 1459, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1486, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__block1 {
   margin-right: 64px;
 }
 
-/* line 1461, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1488, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__display-title {
   display: flex;
   align-items: center;
@@ -2742,7 +2779,7 @@ input[type='tel']::placeholder {
   margin-bottom: 24px;
 }
 
-/* line 1466, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1493, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__title-mini {
   color: #000;
   font-size: 20px;
@@ -2750,7 +2787,7 @@ input[type='tel']::placeholder {
   line-height: 160%;
 }
 
-/* line 1471, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1498, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__text {
   color: #000;
   font-size: 18px;
@@ -2758,17 +2795,17 @@ input[type='tel']::placeholder {
   line-height: 160%;
 }
 
-/* line 1476, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1503, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__text-width1 {
   max-width: 521px;
 }
 
-/* line 1478, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1505, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .tenth-section__text-width2 {
   max-width: 564px;
 }
 
-/* line 1481, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1508, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .big-block {
   position: absolute;
   top: 80px;
@@ -2776,13 +2813,13 @@ input[type='tel']::placeholder {
   z-index: 2;
 }
 
-/* line 1487, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1514, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer {
   min-height: 561px;
   background: #D1A19C;
 }
 
-/* line 1490, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1517, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__title {
   color: #FFF;
   font-size: 32px;
@@ -2793,7 +2830,7 @@ input[type='tel']::placeholder {
   padding-top: 66px;
 }
 
-/* line 1498, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1525, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__block1 {
   display: flex;
   align-items: center;
@@ -2801,17 +2838,17 @@ input[type='tel']::placeholder {
   margin-bottom: 60px;
 }
 
-/* line 1503, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1530, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__block1-socials {
   display: flex;
 }
 
-/* line 1505, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1532, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__ul {
   display: flex;
 }
 
-/* line 1507, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1534, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__link {
   color: #FFF;
   font-size: 20px;
@@ -2821,12 +2858,12 @@ input[type='tel']::placeholder {
   margin-right: 40px;
 }
 
-/* line 1513, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1540, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__link:hover {
   text-decoration: underline;
 }
 
-/* line 1516, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1543, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__link-soc {
   color: #FFF;
   font-size: 20px;
@@ -2837,17 +2874,17 @@ input[type='tel']::placeholder {
   margin-right: 40px;
 }
 
-/* line 1524, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1551, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__link-soc:last-child {
   margin-right: 0;
 }
 
-/* line 1526, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1553, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__link-soc:hover {
   text-decoration: underline;
 }
 
-/* line 1528, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1555, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__block2 {
   display: flex;
   align-items: flex-end;
@@ -2855,7 +2892,7 @@ input[type='tel']::placeholder {
   margin-bottom: 64px;
 }
 
-/* line 1533, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1560, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__text1 {
   color: #FFF;
   font-size: 12px;
@@ -2865,7 +2902,7 @@ input[type='tel']::placeholder {
   max-width: 527px;
 }
 
-/* line 1540, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1567, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__text2 {
   color: #FFF;
   font-size: 12px;
@@ -2875,20 +2912,20 @@ input[type='tel']::placeholder {
   max-width: 512px;
 }
 
-/* line 1547, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1574, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__hr {
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 32px;
 }
 
-/* line 1550, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1577, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__block3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* line 1554, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1581, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__year {
   color: #FFF;
   font-size: 14px;
@@ -2896,12 +2933,12 @@ input[type='tel']::placeholder {
   line-height: normal;
 }
 
-/* line 1559, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1586, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__ul2 {
   display: flex;
 }
 
-/* line 1561, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1588, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__link2 {
   color: #FFF;
   font-size: 14px;
@@ -2911,18 +2948,18 @@ input[type='tel']::placeholder {
   margin-right: 40px;
 }
 
-/* line 1568, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1595, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .footer__link2:hover {
   text-decoration: underline;
 }
 
-/* line 1570, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1597, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .margin-0 {
   margin-right: 0;
 }
 
 /* ________Блог________ */
-/* line 1576, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1603, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-banner__wrapper {
   min-height: 269px;
   display: flex;
@@ -2932,12 +2969,12 @@ input[type='tel']::placeholder {
   backdrop-filter: blur(61.45px);
 }
 
-/* line 1583, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1610, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-banner__block {
   margin-left: 320px;
 }
 
-/* line 1585, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1612, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-banner__title {
   color: #000;
   font-size: 40px;
@@ -2946,7 +2983,7 @@ input[type='tel']::placeholder {
   margin-bottom: 27px;
 }
 
-/* line 1591, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1618, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-banner__btn {
   border: none;
   padding: 25px 70px;
@@ -2959,34 +2996,34 @@ input[type='tel']::placeholder {
   cursor: pointer;
 }
 
-/* line 1601, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1628, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-banner__btn:hover {
   background: linear-gradient(99deg, #fe9083 2.28%, #838ff7 159.9%);
 }
 
-/* line 1603, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1630, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-banner__img {
   margin-right: 320px;
 }
 
-/* line 1606, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1633, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-menu__block {
   margin-top: 20px;
   margin-bottom: 27px;
 }
 
-/* line 1610, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1637, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-display {
   display: flex;
 }
 
-/* line 1612, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1639, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-display-left {
   margin-right: 20px;
 }
 
 /* блок услуги (левая часть) */
-/* line 1617, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1644, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-menu__text {
   color: #383737;
   font-size: 20px;
@@ -2994,13 +3031,13 @@ input[type='tel']::placeholder {
   line-height: normal;
 }
 
-/* line 1622, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1649, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-menu__text-dop {
   color: #000;
   font-weight: 500;
 }
 
-/* line 1626, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1653, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-block__uslugi {
   border-radius: 15px;
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
@@ -3009,7 +3046,7 @@ input[type='tel']::placeholder {
   margin-bottom: 12px;
 }
 
-/* line 1633, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1660, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-block__title1 {
   color: #000;
   font-size: 24px;
@@ -3019,7 +3056,7 @@ input[type='tel']::placeholder {
   padding: 7px 0 0 10px;
 }
 
-/* line 1641, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1668, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-block__women {
   display: flex;
   align-items: center;
@@ -3031,7 +3068,7 @@ input[type='tel']::placeholder {
   cursor: pointer;
 }
 
-/* line 1650, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1677, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-block__women-text {
   color: #383737;
   font-size: 16px;
@@ -3040,12 +3077,12 @@ input[type='tel']::placeholder {
   padding: 21px 0 21px 16px;
 }
 
-/* line 1656, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1683, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-block__women-img {
   padding: 21px 16px 21px 0;
 }
 
-/* line 1659, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1686, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-block__men {
   display: flex;
   align-items: center;
@@ -3056,7 +3093,7 @@ input[type='tel']::placeholder {
   cursor: pointer;
 }
 
-/* line 1667, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1694, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-block__men-text {
   color: #383737;
   font-size: 16px;
@@ -3065,13 +3102,13 @@ input[type='tel']::placeholder {
   padding: 21px 0 21px 16px;
 }
 
-/* line 1673, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1700, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-block__men-img {
   padding: 21px 16px 21px 0;
 }
 
 /* блок записи (левая часть) */
-/* line 1678, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1705, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-block__consultation {
   border-radius: 15px;
   border: 2px solid #C27E77;
@@ -3080,7 +3117,7 @@ input[type='tel']::placeholder {
   height: 333px;
 }
 
-/* line 1685, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1712, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-block__title2 {
   color: #000;
   font-size: 24px;
@@ -3090,12 +3127,12 @@ input[type='tel']::placeholder {
   padding: 13px 0 0 20px;
 }
 
-/* line 1693, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1720, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-block__form {
   margin-bottom: 10px;
 }
 
-/* line 1696, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1723, ../vs_code/html/73-website-allgladko/sass/style.sass */
 input[type='text'] {
   width: 301px;
   height: 58px;
@@ -3106,7 +3143,7 @@ input[type='text'] {
   padding-left: 23px;
 }
 
-/* line 1705, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1732, ../vs_code/html/73-website-allgladko/sass/style.sass */
 input[type='num'] {
   width: 301px;
   height: 58px;
@@ -3116,7 +3153,7 @@ input[type='num'] {
   padding-left: 23px;
 }
 
-/* line 1713, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1740, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-block__btn {
   border: none;
   border-radius: 15px;
@@ -3130,13 +3167,13 @@ input[type='num'] {
   cursor: pointer;
 }
 
-/* line 1724, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1751, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog-block__btn:hover {
   background: #d1776d;
 }
 
 /* Правая часть */
-/* line 1729, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1756, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1__title {
   color: #242424;
   font-size: 52px;
@@ -3146,7 +3183,7 @@ input[type='num'] {
   margin-bottom: 16px;
 }
 
-/* line 1736, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1763, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1__title-circle {
   width: 55px;
   height: 55px;
@@ -3157,18 +3194,18 @@ input[type='num'] {
   left: 361px;
 }
 
-/* line 1745, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1772, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1__par1 {
   display: flex;
   margin-bottom: 23px;
 }
 
-/* line 1748, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1775, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1__par1-img {
   margin-right: 16px;
 }
 
-/* line 1750, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1777, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1__par1-texts {
   color: #000;
   font-size: 20px;
@@ -3176,17 +3213,17 @@ input[type='num'] {
   line-height: 121%;
 }
 
-/* line 1755, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1782, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1__par1-text1 {
   margin-bottom: 20px;
 }
 
-/* line 1758, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1785, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part2 {
   margin-bottom: 30px;
 }
 
-/* line 1760, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1787, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part2__text1 {
   color: #000;
   font-size: 20px;
@@ -3195,7 +3232,7 @@ input[type='num'] {
   margin-bottom: 20px;
 }
 
-/* line 1766, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1793, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part2__text2 {
   color: #000;
   font-size: 20px;
@@ -3203,7 +3240,7 @@ input[type='num'] {
   line-height: 121%;
 }
 
-/* line 1772, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1799, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1__title2 {
   color: #242424;
   font-size: 50px;
@@ -3212,7 +3249,7 @@ input[type='num'] {
   margin-bottom: 10px;
 }
 
-/* line 1778, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1805, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1__title2-circle {
   width: 55px;
   height: 55px;
@@ -3223,7 +3260,7 @@ input[type='num'] {
   left: 361px;
 }
 
-/* line 1787, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1814, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part3 {
   display: flex;
   margin-bottom: 21px;
@@ -3231,18 +3268,18 @@ input[type='num'] {
   border-radius: 15px;
 }
 
-/* line 1792, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1819, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part3__img {
   border-radius: 15px;
   margin: 16px 20px 16px 20px;
 }
 
-/* line 1795, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1822, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part3__texts {
   margin-top: 16px;
 }
 
-/* line 1797, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1824, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part3__title {
   color: #242424;
   font-size: 24px;
@@ -3252,7 +3289,7 @@ input[type='num'] {
   margin-bottom: 20px;
 }
 
-/* line 1804, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1831, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part3__text {
   color: #000;
   font-size: 20px;
@@ -3262,7 +3299,7 @@ input[type='num'] {
   max-width: 566px;
 }
 
-/* line 1811, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1838, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part3__link {
   text-decoration: none;
   color: #5C5C5C;
@@ -3271,12 +3308,12 @@ input[type='num'] {
   line-height: 0%;
 }
 
-/* line 1817, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1844, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part3__link:hover {
   text-decoration: underline;
 }
 
-/* line 1820, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1847, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part4 {
   margin-bottom: 30px;
   color: #000;
@@ -3285,27 +3322,27 @@ input[type='num'] {
   line-height: 121%;
 }
 
-/* line 1826, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1853, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part4__text1 {
   margin-bottom: 15px;
 }
 
-/* line 1828, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1855, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part4__text2 {
   margin-bottom: 15px;
 }
 
-/* line 1830, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1857, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part4__text3 {
   margin-bottom: 15px;
 }
 
-/* line 1832, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1859, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part4__text4 {
   margin-bottom: 15px;
 }
 
-/* line 1835, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1862, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1__title3 {
   color: #242424;
   font-size: 50px;
@@ -3314,7 +3351,7 @@ input[type='num'] {
   margin-bottom: 14px;
 }
 
-/* line 1841, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1868, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1__title3-circle {
   width: 55px;
   height: 55px;
@@ -3325,30 +3362,30 @@ input[type='num'] {
   left: 361px;
 }
 
-/* line 1850, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1877, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part5 {
   margin-bottom: 30px;
 }
 
-/* line 1852, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1879, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part5__block1 {
   margin-bottom: 12px;
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   border-radius: 15px;
 }
 
-/* line 1856, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1883, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part5__block2 {
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
   border-radius: 15px;
 }
 
-/* line 1859, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1886, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part5__texts {
   padding: 24px 48px 24px 33px;
 }
 
-/* line 1861, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1888, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part5__title {
   color: #000;
   font-size: 27px;
@@ -3357,7 +3394,7 @@ input[type='num'] {
   margin-bottom: 20px;
 }
 
-/* line 1867, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1894, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part5__text {
   color: #000;
   font-size: 16px;
@@ -3365,7 +3402,7 @@ input[type='num'] {
   line-height: 121%;
 }
 
-/* line 1873, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1900, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1__title4 {
   color: #242424;
   font-size: 50px;
@@ -3374,18 +3411,18 @@ input[type='num'] {
   margin-bottom: 14px;
 }
 
-/* line 1879, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1906, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1__title4-circle {
   width: 55px;
   height: 55px;
   position: absolute;
   border-radius: 50%;
   background: rgba(194, 126, 119, 0.2);
-  top: 4480px;
+  top: 4404px;
   left: 392px;
 }
 
-/* line 1888, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1915, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part6 {
   margin-bottom: 30px;
   display: grid;
@@ -3393,7 +3430,7 @@ input[type='num'] {
   gap: 10px;
 }
 
-/* line 1893, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1920, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part6__first {
   cursor: pointer;
   border-radius: 25px;
@@ -3401,13 +3438,13 @@ input[type='num'] {
   transition: .7s all;
 }
 
-/* line 1898, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1925, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part6__first:hover {
   /* border: 1px solid #F6B1B5 */
   background: rgba(209, 161, 156, 0.2);
 }
 
-/* line 1901, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1928, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part6__second {
   cursor: pointer;
   border-radius: 25px;
@@ -3415,13 +3452,13 @@ input[type='num'] {
   transition: .7s all;
 }
 
-/* line 1906, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1933, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part6__second:hover {
   /* border: 1px solid #F6B1B5 */
   background: rgba(209, 161, 156, 0.2);
 }
 
-/* line 1909, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1936, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part6__third {
   cursor: pointer;
   border-radius: 25px;
@@ -3429,13 +3466,13 @@ input[type='num'] {
   transition: .7s all;
 }
 
-/* line 1914, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1941, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part6__third:hover {
   /* border: 1px solid #F6B1B5 */
   background: rgba(209, 161, 156, 0.2);
 }
 
-/* line 1917, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1944, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part6__display {
   display: flex;
   align-items: center;
@@ -3443,12 +3480,12 @@ input[type='num'] {
   position: relative;
 }
 
-/* line 1922, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1949, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part6__img {
   padding: 11px;
 }
 
-/* line 1924, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1951, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part6__img-mini {
   position: absolute;
   display: none;
@@ -3458,7 +3495,7 @@ input[type='num'] {
   cursor: pointer;
 }
 
-/* line 1931, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1958, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .blog1-part6__text {
   color: #000;
   font-size: 24px;
@@ -3467,13 +3504,13 @@ input[type='num'] {
   padding: 0 0 17px 38px;
 }
 
-/* line 1938, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1965, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .article-section {
   min-height: 520px;
   margin-bottom: 30px;
 }
 
-/* line 1941, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1968, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .article-section__title {
   color: #000;
   font-size: 50px;
@@ -3482,25 +3519,25 @@ input[type='num'] {
   margin-bottom: 14px;
 }
 
-/* line 1947, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1974, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .article-section__wrapper-first {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
-/* line 1951, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1978, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .article-section__wrapper-second {
   display: flex;
   align-items: center;
 }
 
-/* line 1954, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1981, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .article-section__img {
   margin-right: 32px;
 }
 
-/* line 1956, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1983, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .article-section__title2 {
   color: #000;
   font-size: 27px;
@@ -3509,7 +3546,7 @@ input[type='num'] {
   margin-bottom: 25px;
 }
 
-/* line 1962, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1989, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .article-section__text {
   color: #000;
   font-size: 20px;
@@ -3518,7 +3555,7 @@ input[type='num'] {
   margin-bottom: 20px;
 }
 
-/* line 1968, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 1995, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .article-section__link {
   text-decoration: none;
   color: #5F5F5F;
@@ -3527,13 +3564,13 @@ input[type='num'] {
   line-height: 0%;
 }
 
-/* line 1974, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2001, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .article-section__link:hover {
   text-decoration: underline;
 }
 
 /* ___________________Услуги___________________ */
-/* line 1979, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2006, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section {
   min-height: 560px;
   background: linear-gradient(14deg, #F9DBED -72.42%, rgba(253, 163, 217, 0.15) 193.53%);
@@ -3547,12 +3584,12 @@ input[type='num'] {
   margin-bottom: 75px;
 }
 
-/* line 1990, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2017, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__img {
   margin-right: 70px;
 }
 
-/* line 1992, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2019, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__img-flower {
   position: absolute;
   top: 158px;
@@ -3561,7 +3598,7 @@ input[type='num'] {
   height: 401px;
 }
 
-/* line 1998, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2025, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__title {
   color: #242424;
   font-size: 35px;
@@ -3572,7 +3609,7 @@ input[type='num'] {
   margin-bottom: 10px;
 }
 
-/* line 2006, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2033, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__text {
   color: #000;
   font-size: 20px;
@@ -3582,14 +3619,14 @@ input[type='num'] {
   margin-bottom: 18px;
 }
 
-/* line 2013, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2040, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__money {
   display: flex;
   align-items: flex-end;
   margin-bottom: 10px;
 }
 
-/* line 2017, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2044, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__money1 {
   font-size: 40px;
   font-weight: 600;
@@ -3600,7 +3637,7 @@ input[type='num'] {
   -webkit-text-fill-color: transparent;
 }
 
-/* line 2025, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2052, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__money2 {
   color: #232323;
   font-size: 24px;
@@ -3608,7 +3645,7 @@ input[type='num'] {
   line-height: normal;
 }
 
-/* line 2030, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2057, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__btn {
   border-radius: 15px;
   background: linear-gradient(99deg, #FFA399 2.28%, #9EA8FF 159.9%);
@@ -3622,12 +3659,12 @@ input[type='num'] {
   cursor: pointer;
 }
 
-/* line 2041, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2068, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__btn:hover {
   background: linear-gradient(99deg, #f49388 2.28%, #8894fd 159.9%);
 }
 
-/* line 2043, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2070, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__text-action {
   color: rgba(245, 133, 164, 0.8);
   font-size: 20px;
@@ -3636,13 +3673,13 @@ input[type='num'] {
   margin-bottom: 10px;
 }
 
-/* line 2049, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2076, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__time {
   display: flex;
   gap: 5px;
 }
 
-/* line 2052, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2079, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__time-text1 {
   color: #000;
   font-size: 27px;
@@ -3651,7 +3688,7 @@ input[type='num'] {
   text-align: center;
 }
 
-/* line 2058, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2085, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__time-text2 {
   color: rgba(0, 0, 0, 0.8);
   font-size: 18px;
@@ -3660,7 +3697,7 @@ input[type='num'] {
   text-align: center;
 }
 
-/* line 2064, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2091, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__time-hour {
   background: rgba(246, 177, 181, 0.4);
   border-radius: 15px;
@@ -3668,7 +3705,7 @@ input[type='num'] {
   padding: 16px 24px 20px 24px;
 }
 
-/* line 2069, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2096, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__time-min {
   background: rgba(246, 177, 181, 0.4);
   border-radius: 15px;
@@ -3676,7 +3713,7 @@ input[type='num'] {
   padding: 16px 24px 20px 24px;
 }
 
-/* line 2074, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2101, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .banner-section__time-sec {
   background: rgba(246, 177, 181, 0.4);
   border-radius: 15px;
@@ -3684,13 +3721,13 @@ input[type='num'] {
   padding: 16px 24px 20px 24px;
 }
 
-/* line 2080, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2107, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-section {
   min-height: 724px;
   margin-bottom: 30px;
 }
 
-/* line 2083, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2110, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-section__title {
   color: #242424;
   font-size: 52px;
@@ -3699,7 +3736,7 @@ input[type='num'] {
   margin-bottom: 12px;
 }
 
-/* line 2089, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2116, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-section__title-circle {
   width: 55px;
   height: 55px;
@@ -3710,7 +3747,7 @@ input[type='num'] {
   left: -3px;
 }
 
-/* line 2097, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2124, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-section__menu {
   display: flex;
   align-items: center;
@@ -3720,7 +3757,7 @@ input[type='num'] {
   margin-bottom: 10px;
 }
 
-/* line 2104, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2131, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-section__menu-text {
   color: #9B9B9B;
   font-size: 24px;
@@ -3728,7 +3765,7 @@ input[type='num'] {
   line-height: normal;
 }
 
-/* line 2109, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2136, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-section__menu-women {
   display: flex;
   align-items: center;
@@ -3736,14 +3773,14 @@ input[type='num'] {
   margin-right: 50px;
 }
 
-/* line 2114, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2141, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-section__menu-men {
   display: flex;
   align-items: center;
   gap: 14px;
 }
 
-/* line 2118, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2145, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-section__wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, 237px);
@@ -3753,7 +3790,7 @@ input[type='num'] {
   border-radius: 25px;
 }
 
-/* line 2127, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2154, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__wrapper1 {
   display: grid;
   grid-template-columns: repeat(auto-fill, 303px);
@@ -3761,36 +3798,36 @@ input[type='num'] {
   margin-bottom: 5px;
 }
 
-/* line 2132, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2159, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__wrapper1-first {
   border-radius: 15px;
   background: linear-gradient(153.18deg, rgba(253, 163, 217, 0.08) -1.661%, rgba(249, 219, 237, 0.5) 201.939%);
 }
 
-/* line 2135, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2162, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__wrapper1-second {
   border-radius: 15px;
   background: linear-gradient(153.18deg, rgba(253, 163, 217, 0.08) -1.661%, rgba(249, 219, 237, 0.5) 201.939%);
 }
 
-/* line 2138, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2165, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__wrapper1-third {
   border-radius: 15px;
   background: linear-gradient(153.18deg, rgba(253, 163, 217, 0.08) -1.661%, rgba(249, 219, 237, 0.5) 201.939%);
 }
 
-/* line 2141, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2168, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__wrapper1-fourth {
   border-radius: 15px;
   background: linear-gradient(153.18deg, rgba(253, 163, 217, 0.08) -1.661%, rgba(249, 219, 237, 0.5) 201.939%);
 }
 
-/* line 2144, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2171, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__img {
   padding: 16px 0 10px 18px;
 }
 
-/* line 2146, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2173, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__name {
   color: #242424;
   font-size: 18px;
@@ -3799,7 +3836,7 @@ input[type='num'] {
   margin: 0 0 5px 18px;
 }
 
-/* line 2152, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2179, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__text {
   color: #242424;
   font-size: 14px;
@@ -3808,12 +3845,12 @@ input[type='num'] {
   padding: 0 18px 0 18px;
 }
 
-/* line 2158, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2185, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__text-margin {
   padding-bottom: 15px;
 }
 
-/* line 2160, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2187, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__link {
   color: #5f5f5f;
   font-size: 14px;
@@ -3823,38 +3860,38 @@ input[type='num'] {
   margin-left: 18px;
 }
 
-/* line 2167, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2194, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__link:hover {
   text-decoration: underline;
 }
 
-/* line 2169, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2196, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__date {
   margin-left: 18px;
   padding-bottom: 16px;
 }
 
-/* line 2172, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2199, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__date-margin1 {
   margin-top: 35px;
 }
 
-/* line 2174, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2201, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__date-margin2 {
   margin-top: 35px;
 }
 
-/* line 2176, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2203, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__date-margin3 {
   margin-top: 17px;
 }
 
-/* line 2178, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2205, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__date-margin4 {
   margin-top: 68px;
 }
 
-/* line 2181, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2208, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi__label1 {
   position: absolute;
   top: 285px;
@@ -3866,7 +3903,7 @@ input[type='num'] {
   line-height: normal;
 }
 
-/* line 2191, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2218, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi__label2 {
   position: absolute;
   top: 375px;
@@ -3878,13 +3915,13 @@ input[type='num'] {
   line-height: normal;
 }
 
-/* line 2201, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2228, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-staff {
   min-height: 520px;
   margin-bottom: 14px;
 }
 
-/* line 2204, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2231, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-staff__title {
   color: #242424;
   font-size: 52px;
@@ -3893,7 +3930,7 @@ input[type='num'] {
   margin-bottom: 14px;
 }
 
-/* line 2210, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2237, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-staff__title-circle {
   width: 55px;
   height: 55px;
@@ -3904,27 +3941,27 @@ input[type='num'] {
   left: -1px;
 }
 
-/* line 2218, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2245, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-staff__img {
   background: #e9e9e9;
   border-radius: 25px;
   margin: 21px 0 21px 21px;
 }
 
-/* line 2222, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2249, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-staff__wrapper {
   display: flex;
   border-radius: 25px;
   background: linear-gradient(150deg, rgba(253, 163, 217, 0.08) -5.09%, rgba(249, 219, 237, 0.5) 209.14%);
 }
 
-/* line 2226, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2253, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-staff__wrapper-left {
   margin-right: 31px;
   position: relative;
 }
 
-/* line 2229, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2256, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-staff__wrapper-block {
   display: flex;
   align-items: center;
@@ -3937,7 +3974,7 @@ input[type='num'] {
   left: 344px;
 }
 
-/* line 2240, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2267, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-staff__text-italy {
   color: #7E7B7B;
   font-size: 18px;
@@ -3945,7 +3982,7 @@ input[type='num'] {
   line-height: normal;
 }
 
-/* line 2245, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2272, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-staff__title2 {
   color: #383838;
   font-size: 27px;
@@ -3955,7 +3992,7 @@ input[type='num'] {
   margin-top: 50px;
 }
 
-/* line 2252, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2279, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-staff__descr {
   color: #282828;
   font-size: 20px;
@@ -3964,46 +4001,46 @@ input[type='num'] {
   max-width: 620px;
 }
 
-/* line 2259, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2286, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-view {
   min-height: 1831px;
   margin-bottom: 30px;
 }
 
-/* line 2262, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2289, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-view__wrapper-first {
   display: flex;
   margin-bottom: 50px;
 }
 
-/* line 2265, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2292, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-view__wrapper-second {
   display: flex;
   margin-bottom: 50px;
 }
 
-/* line 2268, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2295, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-view__wrapper-third {
   display: flex;
   margin-bottom: 50px;
 }
 
-/* line 2271, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2298, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-view__wrapper-fourth {
   display: flex;
 }
 
-/* line 2273, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2300, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-view__block1 {
   margin-right: 30px;
 }
 
-/* line 2275, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2302, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-view__img-margin2 {
   margin-right: 30px;
 }
 
-/* line 2277, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2304, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-view__title {
   color: #383838;
   font-size: 27px;
@@ -4012,7 +4049,7 @@ input[type='num'] {
   margin-bottom: 22px;
 }
 
-/* line 2283, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2310, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-view__text {
   color: #282828;
   font-size: 20px;
@@ -4020,22 +4057,22 @@ input[type='num'] {
   line-height: 160%;
 }
 
-/* line 2288, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2315, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugi-view__img {
   border-radius: 25px;
 }
 
-/* line 2291, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2318, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-display {
   display: flex;
 }
 
-/* line 2293, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2320, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-display-left {
   margin-right: 20px;
 }
 
-/* line 2297, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2324, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-block__quantity {
   background: linear-gradient(153.18deg, rgba(253, 163, 217, 0.08) -14.923%, rgba(249, 219, 237, 0.5) 229.779%);
   border-radius: 15px;
@@ -4043,7 +4080,7 @@ input[type='num'] {
   height: 603px;
 }
 
-/* line 2302, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2329, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-block__title {
   color: black;
   font-size: 24px;
@@ -4054,7 +4091,7 @@ input[type='num'] {
   padding-left: 15px;
 }
 
-/* line 2310, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2337, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-block__text {
   color: #383737;
   font-size: 16px;
@@ -4068,7 +4105,7 @@ input[type='num'] {
   margin-right: 15px;
 }
 
-/* line 2321, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2348, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-block__text-hands {
   color: #383737;
   font-size: 16px;
@@ -4083,7 +4120,7 @@ input[type='num'] {
   margin-right: 15px;
 }
 
-/* line 2335, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2362, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl__title {
   color: #242424;
   font-size: 52px;
@@ -4092,7 +4129,7 @@ input[type='num'] {
   margin-bottom: 5px;
 }
 
-/* line 2341, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2368, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl__title-circle {
   width: 55px;
   height: 55px;
@@ -4103,7 +4140,7 @@ input[type='num'] {
   left: 395px;
 }
 
-/* line 2349, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2376, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl__wrapper1 {
   display: flex;
   border-radius: 15px;
@@ -4111,13 +4148,13 @@ input[type='num'] {
   margin-bottom: 20px;
 }
 
-/* line 2354, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2381, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl__wrapper1-img {
   margin-right: 24px;
   padding: 16px 0 16px 16px;
 }
 
-/* line 2357, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2384, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl__wrapper1-texts {
   display: flex;
   align-items: center;
@@ -4125,26 +4162,26 @@ input[type='num'] {
   margin-bottom: 18px;
 }
 
-/* line 2362, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2389, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl__wrapper1-text {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
 }
 
-/* line 2366, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2393, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl__wrapper1-span {
   font-weight: 600;
   margin-right: 5px;
 }
 
-/* line 2369, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2396, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl__wrapper1-buttons {
   display: flex;
   gap: 10px;
 }
 
-/* line 2372, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2399, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl__wrapper1-button1 {
   border-radius: 15px;
   border: none;
@@ -4157,12 +4194,12 @@ input[type='num'] {
   cursor: pointer;
 }
 
-/* line 2382, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2409, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl__wrapper1-button1:hover {
   background: #cf776d;
 }
 
-/* line 2384, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2411, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl__wrapper1-button2 {
   border: 1px solid #d1a19c;
   border-radius: 15px;
@@ -4175,17 +4212,17 @@ input[type='num'] {
   cursor: pointer;
 }
 
-/* line 2394, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2421, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl__wrapper1-button2:hover {
   background: #fff5f5;
 }
 
-/* line 2396, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2423, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-descr {
   margin-bottom: 30px;
 }
 
-/* line 2398, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2425, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-descr__title {
   color: #242424;
   font-size: 27px;
@@ -4194,7 +4231,7 @@ input[type='num'] {
   margin-bottom: 20px;
 }
 
-/* line 2404, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2431, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-descr__text {
   color: #403e3e;
   font-size: 20px;
@@ -4202,22 +4239,22 @@ input[type='num'] {
   line-height: 23px;
 }
 
-/* line 2410, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2437, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .mb-0 {
   margin-bottom: 28px;
 }
 
-/* line 2413, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2440, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .mt-30 {
   margin-top: 29px;
 }
 
-/* line 2416, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2443, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-otzyvy-section {
   min-height: 307px;
 }
 
-/* line 2419, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2446, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .otzyvy__wrapper11 {
   display: grid;
   grid-template-columns: repeat(auto-fill, 206px);
@@ -4225,7 +4262,7 @@ input[type='num'] {
   margin-bottom: 5px;
 }
 
-/* line 2425, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2452, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .fifth-section__text-mww {
   color: black;
   font-size: 24px;
@@ -4234,7 +4271,7 @@ input[type='num'] {
   margin-right: 87px;
 }
 
-/* line 2433, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2460, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-special__title {
   color: #242424;
   font-size: 27px;
@@ -4243,7 +4280,7 @@ input[type='num'] {
   margin-bottom: 14px;
 }
 
-/* line 2439, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2466, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-special__wrapper {
   display: flex;
   border-radius: 15px;
@@ -4251,13 +4288,13 @@ input[type='num'] {
   background: linear-gradient(153.18deg, rgba(253, 163, 217, 0.08) 15.199%, rgba(249, 219, 237, 0.5) 166.545%);
 }
 
-/* line 2444, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2471, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-special__img {
   border-radius: 15px;
   margin: 20px 20px 20px 20px;
 }
 
-/* line 2447, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2474, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-special__title2 {
   color: #242424;
   font-size: 24px;
@@ -4267,7 +4304,7 @@ input[type='num'] {
   margin-bottom: 20px;
 }
 
-/* line 2454, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2481, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-special__text-special {
   font-size: 18px;
   font-weight: 400;
@@ -4275,7 +4312,7 @@ input[type='num'] {
   margin-bottom: 15px;
 }
 
-/* line 2459, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2486, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-special__text-stage {
   font-size: 18px;
   font-weight: 400;
@@ -4283,26 +4320,26 @@ input[type='num'] {
   margin-bottom: 15px;
 }
 
-/* line 2464, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2491, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-special__text-nums {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
 }
 
-/* line 2468, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2495, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-special__span {
   color: #3c3c3c;
   font-weight: 600;
 }
 
-/* line 2472, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2499, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-procedure {
   min-height: 997px;
   margin-bottom: 40px;
 }
 
-/* line 2475, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2502, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-procedure__title {
   color: #242424;
   font-size: 52px;
@@ -4311,40 +4348,40 @@ input[type='num'] {
   margin-bottom: 20px;
 }
 
-/* line 2481, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2508, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-procedure__title-circle {
   width: 55px;
   height: 55px;
   position: absolute;
   border-radius: 50%;
   background: rgba(194, 126, 119, 0.2);
-  top: 1974px;
+  top: 1957px;
   left: 391px;
 }
 
-/* line 2489, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2516, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-procedure__wrapper {
   display: flex;
   margin-bottom: 40px;
 }
 
-/* line 2492, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2519, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-procedure__img1 {
   margin-right: 5px;
   border-radius: 15px;
   position: relative;
 }
 
-/* line 2496, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2523, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-procedure__img2 {
   border-radius: 15px;
   position: relative;
 }
 
-/* line 2499, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2526, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-procedure__span1 {
   position: absolute;
-  top: 2273px;
+  top: 2255px;
   left: 406px;
   color: black;
   font-size: 20px;
@@ -4355,10 +4392,10 @@ input[type='num'] {
   padding: 5px 24px;
 }
 
-/* line 2510, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2537, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-procedure__span2 {
   position: absolute;
-  top: 2274px;
+  top: 2255px;
   left: 874px;
   color: black;
   font-size: 20px;
@@ -4369,7 +4406,7 @@ input[type='num'] {
   padding: 5px 24px;
 }
 
-/* line 2521, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2548, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-procedure__title2 {
   color: #242424;
   font-size: 27px;
@@ -4378,7 +4415,7 @@ input[type='num'] {
   margin-bottom: 14px;
 }
 
-/* line 2527, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2554, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-procedure__text2 {
   color: #403e3e;
   font-size: 20px;
@@ -4386,17 +4423,17 @@ input[type='num'] {
   line-height: 23px;
 }
 
-/* line 2532, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2559, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-procedure__text2-margin {
   margin-bottom: 20px;
 }
 
-/* line 2535, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2562, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-equipment {
   margin-bottom: 40px;
 }
 
-/* line 2537, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2564, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-equipment__title {
   color: #242424;
   font-size: 52px;
@@ -4405,32 +4442,32 @@ input[type='num'] {
   margin-bottom: 14px;
 }
 
-/* line 2543, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2570, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-equipment__title-circle {
   width: 55px;
   height: 55px;
   position: absolute;
   border-radius: 50%;
   background: rgba(194, 126, 119, 0.2);
-  top: 3069px;
+  top: 3051px;
   left: 394px;
 }
 
-/* line 2551, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2578, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-equipment__wrapper {
   border-radius: 25px;
   background: linear-gradient(153.18deg, rgba(253, 163, 217, 0.08) 9.359%, rgba(249, 219, 237, 0.5) 178.805%);
   display: flex;
 }
 
-/* line 2555, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2582, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-equipment__img {
   background: #e8e4e4;
   border-radius: 20px;
   margin: 15px 30px 15px 17px;
 }
 
-/* line 2559, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2586, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-equipment__title2 {
   color: #282828;
   font-size: 27px;
@@ -4440,7 +4477,7 @@ input[type='num'] {
   margin-bottom: 14px;
 }
 
-/* line 2566, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2593, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-equipment__text2 {
   color: #282828;
   font-size: 20px;
@@ -4450,7 +4487,7 @@ input[type='num'] {
   max-width: 446px;
 }
 
-/* line 2573, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2600, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-equipment__link {
   color: #282828;
   font-size: 18px;
@@ -4459,17 +4496,17 @@ input[type='num'] {
   text-decoration: none;
 }
 
-/* line 2579, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2606, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-equipment__link:hover {
   text-decoration: underline;
 }
 
-/* line 2582, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2609, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-photo {
   margin-bottom: 40px;
 }
 
-/* line 2584, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2611, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-photo__title {
   color: #242424;
   font-size: 52px;
@@ -4478,35 +4515,35 @@ input[type='num'] {
   margin-bottom: 14px;
 }
 
-/* line 2590, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2617, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-photo__title-circle {
   width: 55px;
   height: 55px;
   position: absolute;
   border-radius: 50%;
   background: rgba(194, 126, 119, 0.2);
-  top: 3611px;
+  top: 3594px;
   left: 394px;
 }
 
-/* line 2598, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2625, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-photo__wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, 303px);
   gap: 9px;
 }
 
-/* line 2602, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2629, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-photo__img {
   border-radius: 15px;
 }
 
-/* line 2605, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2632, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-questions {
   margin-bottom: 40px;
 }
 
-/* line 2607, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2634, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-questions__title {
   color: #242424;
   font-size: 52px;
@@ -4515,34 +4552,34 @@ input[type='num'] {
   margin-bottom: 20px;
 }
 
-/* line 2613, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2640, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .uslugivl-questions__title-circle {
   width: 55px;
   height: 55px;
   position: absolute;
   border-radius: 50%;
   background: rgba(194, 126, 119, 0.2);
-  top: 4038px;
+  top: 4019px;
   left: 394px;
 }
 
-/* line 2622, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2649, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .accordion {
   /* max-width: 400px */
   /* margin: 0 auto */
 }
 
-/* line 2626, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2653, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .accordion-section {
   margin-bottom: 11px;
 }
 
-/* line 2629, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2656, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .accordion-section:last-child {
   border-bottom: none;
 }
 
-/* line 2632, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2659, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .accordion-title {
   cursor: pointer;
   padding: 23px 30px;
@@ -4558,12 +4595,12 @@ input[type='num'] {
   position: relative;
 }
 
-/* line 2646, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2673, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .accordion-title.active {
   border-radius: 15px 15px 0 0;
 }
 
-/* line 2649, ../vs_code/html/73-website-allgladko/sass/style.sass */
+/* line 2676, ../vs_code/html/73-website-allgladko/sass/style.sass */
 .accordion-content {
   display: none;
   padding: 30px 115px 23px 30px;
@@ -4576,44 +4613,44 @@ input[type='num'] {
 }
 
 @media (max-width: 1400px) {
-  /* line 2660, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2687, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog-banner__block {
     margin-left: 10px;
   }
-  /* line 2662, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2689, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog-banner__img {
     margin-right: 10px;
   }
-  /* line 2664, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2691, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog-display {
     display: block;
   }
-  /* line 2666, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2693, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog-display-left {
     display: flex;
     margin-right: 0;
   }
-  /* line 2669, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2696, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog-block__uslugi {
     margin-bottom: 0;
     margin-right: 20px;
   }
-  /* line 2672, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2699, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__title-circle {
     top: 327px;
     left: -4px;
   }
-  /* line 2675, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2702, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__title2-circle {
     top: 953px;
     left: -2px;
   }
-  /* line 2678, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2705, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__title3-circle {
     top: 1696px;
     left: -1px;
   }
-  /* line 2681, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2708, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__title4-circle {
     top: 2116px;
     left: -4px;
@@ -4621,205 +4658,213 @@ input[type='num'] {
 }
 
 @media (max-width: 1300px) {
-  /* line 2686, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2713, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-display {
     display: block;
   }
-  /* line 2688, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2715, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl__title-circle {
     display: none;
   }
-  /* line 2690, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2717, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__title4-circle {
     display: none;
   }
-  /* line 2692, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2719, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-procedure__span1 {
     display: none;
   }
-  /* line 2694, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2721, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-procedure__span2 {
     display: none;
   }
-  /* line 2696, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2723, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-procedure__title-circle {
     display: none;
   }
-  /* line 2698, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2725, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .sixth-section__title-circle {
     display: none;
   }
-  /* line 2700, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2727, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fifth-section__title-circle {
     display: none;
   }
-  /* line 2702, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2729, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .container {
     padding-left: 10px;
   }
-  /* line 2704, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2731, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-photo__title-circle {
     display: none;
   }
-  /* line 2706, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2733, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-questions__title-circle {
     display: none;
   }
-  /* line 2708, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2735, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-equipment__title-circle {
     display: none;
   }
 }
 
 @media (max-width: 1180px) {
-  /* line 2712, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2739, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .container {
     padding-left: 10px;
     padding-right: 10px;
   }
-  /* line 2715, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2742, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section {
     min-height: 875px;
   }
-  /* line 2717, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2744, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__block2-mini {
     display: flex;
     max-width: none;
     align-items: flex-start;
   }
-  /* line 2721, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2748, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__title-circle {
     top: 2px;
     left: 7px;
   }
-  /* line 2724, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2751, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .third-section__title-circle {
     left: 5px;
   }
-  /* line 2726, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2753, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fourth-section__title-circle {
     left: 7px;
   }
-  /* line 2728, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2755, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fourth-section__block1-img {
     left: 214px;
     width: 333px;
     height: 338px;
   }
-  /* line 2732, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2759, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fifth-section__man {
     margin-right: 163px;
   }
-  /* line 2734, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2761, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fifth-section__seans {
     margin-right: 91px;
   }
-  /* line 2736, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2763, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .sixth-section__wrapper2 {
     overflow: auto;
   }
-  /* line 2738, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2765, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .sixth-section__wrapper2-first {
     width: 405px;
     height: 335px;
   }
-  /* line 2741, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2768, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .sixth-section__wrapper2-second {
     width: 405px;
     height: 335px;
   }
-  /* line 2744, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2771, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .sixth-section__wrapper2-third {
     width: 405px;
     height: 335px;
   }
-  /* line 2747, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2774, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .sixth-section__wrapper1 {
     display: flex;
     overflow-x: auto;
   }
-  /* line 2750, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2777, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .sixth-section__wrapper1 > div {
     flex: 0 0 auto;
     margin-right: 10px;
   }
-  /* line 2753, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2780, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .sixth-section__title-circle {
     left: 10px;
   }
-  /* line 2755, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2782, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .seventh-section__title-circle {
     left: 10px;
   }
-  /* line 2757, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2784, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .seventh-section__wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
   }
   /* Стили для широкой карточки */
-  /* line 2762, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2789, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .seventh-section__wrapper-fourth {
     grid-column: span 3;
   }
-  /* line 2764, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2791, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  .seventh-section__img4 {
+    margin-left: 0;
+  }
+  /* line 2793, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  .seventh-section__wrapper-fourth_widthmain {
+    width: auto;
+  }
+  /* line 2795, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .seventh-section__block-img {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  /* line 2768, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2799, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__title-circle {
     left: 7px;
   }
-  /* line 2770, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2801, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__wrapper-title {
     max-width: 394px;
   }
-  /* line 2772, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2803, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__width1 {
     max-width: 442px;
   }
-  /* line 2774, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2805, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__width2 {
     max-width: 442px;
   }
-  /* line 2776, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2807, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__wrapper2 {
     margin-right: 10px;
   }
-  /* line 2778, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2809, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__block1-mini {
     min-width: 520px;
   }
-  /* line 2780, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2811, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__block1-text {
     color: #242424;
     font-size: 14px;
     font-weight: 400;
     line-height: 121.43%;
   }
-  /* line 2785, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2816, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__block1-right {
     gap: 10px;
     margin-top: 52px;
   }
-  /* line 2788, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2819, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__square1 {
     width: 49px;
     height: 49px;
   }
-  /* line 2791, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2822, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__square2 {
     width: 49px;
     height: 49px;
   }
-  /* line 2794, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2825, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__square3 {
     width: 49px;
     height: 49px;
   }
-  /* line 2797, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2828, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__square1-text1 {
     color: #2d2d2d;
     font-size: 20px;
@@ -4827,14 +4872,14 @@ input[type='num'] {
     line-height: 23px;
     margin-top: 5px;
   }
-  /* line 2803, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2834, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__square1-text2 {
     color: #3c3c3c;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
   }
-  /* line 2808, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2839, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__square2-text1 {
     color: #2d2d2d;
     font-size: 20px;
@@ -4842,14 +4887,14 @@ input[type='num'] {
     line-height: 23px;
     margin-top: 5px;
   }
-  /* line 2814, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2845, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__square2-text2 {
     color: #3c3c3c;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
   }
-  /* line 2819, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2850, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__square3-text1 {
     color: #2d2d2d;
     font-size: 20px;
@@ -4857,369 +4902,389 @@ input[type='num'] {
     line-height: 23px;
     margin-top: 5px;
   }
-  /* line 2825, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2856, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__square3-text2 {
     color: #3c3c3c;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
   }
-  /* line 2830, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2861, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__label1 {
     top: 860px;
     left: 596px;
   }
-  /* line 2833, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2864, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__label2 {
     top: 949px;
     left: 596px;
   }
-  /* line 2836, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2867, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__btn {
     padding: 15px;
   }
-  /* line 2838, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2869, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__title-zaiavka {
     padding-top: 15px;
   }
-  /* line 2840, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2871, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__text-stock {
     font-weight: 400;
   }
-  /* line 2842, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2873, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__money-first {
     white-space: nowrap;
   }
-  /* line 2844, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2875, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__money-second {
     white-space: nowrap;
   }
-  /* line 2846, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2877, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__wrapper {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
   }
-  /* line 2850, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2881, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__wrapper > div {
     scroll-snap-align: start;
     flex-shrink: 0;
     margin-right: 20px;
   }
-  /* line 2854, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2885, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__title-circle1 {
     left: 9px;
   }
-  /* line 2856, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2887, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__wrapper2 {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
   }
-  /* line 2860, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2891, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__wrapper2 > div {
     scroll-snap-align: start;
     flex-shrink: 0;
     margin-right: 20px;
   }
-  /* line 2864, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2895, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__title2-circle2 {
     left: 6px;
   }
-  /* line 2866, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2897, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__title3-circle3 {
     left: 8px;
   }
-  /* line 2868, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2899, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__img333 {
     padding-right: 9px;
   }
-  /* line 2870, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2901, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__title-circle1 {
     left: 7px;
   }
-  /* line 2872, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2903, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__wrapper {
     padding-left: 10px;
     padding-right: 10px;
   }
-  /* line 2875, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2906, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__wrapper-block2 {
     margin-left: 10px;
     height: 674px;
   }
-  /* line 2878, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2909, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__icon {
     width: 42px;
     height: 42px;
     padding: 9px;
   }
-  /* line 2882, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2913, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__title2-circle2 {
     top: 798px;
     left: 9px;
   }
-  /* line 2885, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2916, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .banner-section {
     display: block;
     height: auto;
   }
-  /* line 2888, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2919, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .banner-section__img-flower {
     display: none;
   }
-  /* line 2890, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2921, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .banner-section__img {
     margin-right: 0;
     width: 80%;
   }
-  /* line 2893, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2924, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .banner-section__descr {
     margin-left: 10px;
   }
-  /* line 2895, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2926, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .banner-section__title {
     margin-top: 0;
   }
-  /* line 2897, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2928, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .banner-section__btn {
     margin-bottom: 10px;
   }
-  /* line 2899, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2930, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .banner-section__time {
     margin-left: 48px;
   }
-  /* line 2901, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2932, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .banner-section__text-action {
     margin-left: 109px;
   }
-  /* line 2903, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2934, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .otzyvy__wrapper1 {
     display: flex;
     overflow-x: auto;
   }
 }
 
+@media (max-width: 1024px) {
+  /* line 2939, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  .fifth-section__overlay {
+    left: 613px;
+  }
+  /* line 2941, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  .fifth-section__overlay2 {
+    left: 544px;
+  }
+}
+
 @media (max-width: 994px) {
-  /* line 2908, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2945, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__numtown {
     display: block;
   }
-  /* line 2910, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2947, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__num {
     margin-right: 0;
     margin-bottom: 9px;
   }
-  /* line 2913, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2950, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__rostow {
     margin-bottom: 0;
     display: none;
   }
-  /* line 2916, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2953, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__img {
     position: static;
   }
-  /* line 2918, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2955, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__wrapper {
     flex-direction: column;
   }
-  /* line 2920, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2957, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__wrapper-right {
     order: -1;
   }
-  /* line 2922, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2959, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__block2-mini {
     display: block;
   }
-  /* line 2924, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2961, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__wrapper {
     display: block;
     width: 533px;
   }
-  /* line 2927, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2964, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__wrapper-first {
     margin-bottom: 10px;
   }
-  /* line 2929, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2966, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__wrapper-second {
     margin-bottom: 10px;
   }
-  /* line 2931, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2968, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__wrapper-third {
     margin-bottom: 10px;
   }
-  /* line 2933, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2970, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fourth-section__wrapper1 {
     display: block;
   }
-  /* line 2935, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2972, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fourth-section__block1 {
     margin-bottom: 10px;
   }
-  /* line 2937, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2974, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fourth-section__wrapper2 {
     display: block;
   }
-  /* line 2939, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2976, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fourth-section__block3 {
     margin-bottom: 10px;
   }
-  /* line 2941, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2978, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fourth-section__block4 {
     margin-bottom: 10px;
   }
-  /* line 2943, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2980, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fifth-section__uslugi-text {
     max-width: 221px;
   }
-  /* line 2945, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2982, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fifth-section__text-mw {
     font-size: 20px;
   }
-  /* line 2947, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2984, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fifth-section__woman {
     margin-right: 44px;
   }
-  /* line 2949, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2986, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .men-nav__all {
     display: none;
   }
-  /* line 2951, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2988, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fifth-section__man {
     margin-right: 98px;
   }
-  /* line 2953, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2990, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fifth-section__money-text {
     margin-left: -59px;
   }
-  /* line 2955, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2992, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  .fifth-section__overlay {
+    left: 521px;
+    height: 789px;
+  }
+  /* line 2995, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  .fifth-section__overlay2 {
+    display: none;
+  }
+  /* line 2997, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .margin-auto2 {
     margin-left: -67px;
   }
-  /* line 2957, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 2999, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .margin-auto3 {
     margin-left: -29px;
   }
-  /* line 2959, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3001, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .margin-auto6 {
     margin-left: 20px;
   }
-  /* line 2961, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3003, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__title-zaiavka {
     display: none;
   }
-  /* line 2963, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3005, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__wrapper2 {
     display: block;
   }
-  /* line 2965, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3007, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__block-btn {
     padding-bottom: 15px;
   }
-  /* line 2967, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3009, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__text-stock {
     font-size: 16px;
   }
-  /* line 2969, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3011, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__present {
     margin-bottom: 10px;
   }
-  /* line 2971, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3013, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__text-str {
     font-size: 12px;
   }
-  /* line 2973, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3015, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__money-first {
     font-size: 28px;
   }
-  /* line 2975, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3017, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__money-second {
     font-size: 12px;
   }
-  /* line 2977, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3019, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__block1-mini {
     background-color: transparent;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0;
   }
-  /* line 2982, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3024, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__block1-right {
     margin-top: 0;
     gap: 8px;
   }
-  /* line 2985, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3027, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__block1-left {
     border-right: 2px solid #ececec;
   }
-  /* line 2987, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3029, ../vs_code/html/73-website-allgladko/sass/style.sass */
   input[type='name'] {
     width: 402px;
   }
-  /* line 2989, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3031, ../vs_code/html/73-website-allgladko/sass/style.sass */
   input[type='tel'] {
     width: 402px;
   }
-  /* line 2991, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3033, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__label1 {
     top: 1342px;
     left: 57px;
   }
-  /* line 2994, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3036, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__label2 {
     top: 1433px;
     left: 57px;
   }
-  /* line 2997, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3039, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__img-main {
     width: 359px;
     height: 363px;
   }
-  /* line 3000, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3042, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__wrapper3 {
     display: flex;
     flex-direction: column;
     background: transparent;
   }
-  /* line 3004, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3046, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__wrapper3-block1 {
     order: 2;
     margin-right: 0;
   }
-  /* line 3007, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3049, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__wrapper3-block2 {
     order: 1;
   }
-  /* line 3009, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3051, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__wrapper3-title {
     padding: 0;
   }
-  /* line 3011, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3053, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__wrapper3-descr {
     padding: 0;
   }
-  /* line 3013, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3055, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .big-block {
     position: static;
   }
-  /* line 3015, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3057, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__wrapper-block2_img {
     display: none;
   }
-  /* line 3017, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3059, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__wrapper {
     display: flex;
     flex-direction: column;
   }
-  /* line 3020, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3062, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__wrapper-block1 {
     order: 2;
   }
-  /* line 3022, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3064, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .big-block {
     order: 1;
   }
-  /* line 3024, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3066, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__wrapper-block2 {
     background: transparent;
     min-height: 100px;
@@ -5227,265 +5292,269 @@ input[type='num'] {
     justify-content: space-between;
     height: auto;
   }
-  /* line 3030, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3072, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__part1 {
     padding: 0;
   }
-  /* line 3032, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3074, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__part2 {
     padding: 0;
     flex-direction: column;
   }
-  /* line 3035, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3077, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__address {
     margin-bottom: 0;
   }
-  /* line 3037, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3079, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__street {
     margin-bottom: 10px;
   }
-  /* line 3039, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3081, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__tel {
     margin-bottom: 10px;
   }
-  /* line 3041, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3083, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__display-tel {
     display: block;
   }
-  /* line 3043, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3085, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .img-tel__all {
     display: none;
   }
-  /* line 3045, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3087, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .footer__ul {
     display: none;
   }
-  /* line 3047, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3089, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .footer__title {
     text-align: center;
   }
-  /* line 3049, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3091, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .footer__block1-socials {
     margin-right: auto;
     margin-left: auto;
   }
-  /* line 3052, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3094, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .footer__text1 {
     margin-right: auto;
     margin-left: auto;
   }
-  /* line 3055, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3097, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .footer__text2 {
     margin-right: auto;
     margin-left: auto;
   }
-  /* line 3058, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3100, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .footer__block2 {
     display: block;
   }
-  /* line 3060, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3102, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .footer__img {
     display: block;
     margin: 0 auto;
   }
-  /* line 3063, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3105, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .footer__block3 {
     display: block;
   }
-  /* line 3065, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3107, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .footer__ul2 {
     display: block;
   }
-  /* line 3067, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3109, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .footer__year {
     margin-bottom: 24px;
   }
-  /* line 3069, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3111, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .footer__li2 {
     margin-bottom: 24px;
   }
-  /* line 3071, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3113, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .margin-0 {
     margin-bottom: 0;
   }
-  /* line 3073, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3115, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__title2-circle2 {
     top: 1472px;
   }
 }
 
 @media (max-width: 840px) {
-  /* line 3077, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3119, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__ul {
     display: none;
   }
-  /* line 3079, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3121, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__town {
     display: none;
   }
-  /* line 3081, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3123, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__num {
     margin-bottom: 0;
   }
-  /* line 3083, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3125, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__call-link {
     display: none;
   }
-  /* line 3085, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3127, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .seventh-section__wrapper {
     display: flex;
     overflow-x: auto;
     flex-wrap: nowrap;
   }
-  /* line 3089, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3131, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__mobile-menu {
     display: block;
     margin-right: 12px;
   }
-  /* line 3092, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3134, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .menu-triger {
     display: block;
   }
-  /* line 3094, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3136, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  .fifth-section__overlay {
+    display: none;
+  }
+  /* line 3138, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog-banner__title {
     display: none;
   }
-  /* line 3096, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3140, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog-banner__wrapper {
     display: block;
   }
-  /* line 3098, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3142, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog-banner__img {
     position: relative;
   }
-  /* line 3100, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3144, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog-banner__btn {
     position: absolute;
     z-index: 2;
     top: 186px;
     left: 73px;
   }
-  /* line 3105, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3149, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog-display-left {
     margin-bottom: 10px;
   }
-  /* line 3107, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3151, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__title-circle {
     display: none;
   }
-  /* line 3109, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3153, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__title2-circle {
     display: none;
   }
-  /* line 3111, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3155, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__title3-circle {
     display: none;
   }
-  /* line 3113, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3157, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__title4-circle {
     display: none;
   }
-  /* line 3115, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3159, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1-part6 {
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
   }
-  /* line 3119, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3163, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .article-section__title2 {
     line-height: 100%;
   }
-  /* line 3121, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3165, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugi-staff__wrapper {
     display: block;
   }
-  /* line 3123, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3167, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugi-staff__title2 {
     margin-top: 0;
   }
-  /* line 3125, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3169, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugi-staff__wrapper-right {
     margin-left: 20px;
   }
-  /* line 3127, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3171, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugi-view__img {
     display: none;
   }
-  /* line 3129, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3173, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugi-view {
     min-height: 1360px;
   }
-  /* line 3131, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3175, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl__wrapper1-img {
     display: none;
   }
-  /* line 3133, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3177, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl__wrapper1 {
     padding-left: 27px;
   }
-  /* line 3135, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3179, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl__wrapper1-buttons {
     padding-bottom: 18px;
   }
-  /* line 3137, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3181, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .otzyvy__wrapper11 {
     display: flex;
     overflow-x: auto;
   }
-  /* line 3140, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3184, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-special__wrapper {
     display: block;
   }
-  /* line 3142, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3186, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-special__title2 {
     margin-top: 0;
     margin-bottom: 10px;
   }
-  /* line 3145, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3189, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-special__block {
     margin-left: 20px;
     padding-bottom: 19px;
   }
-  /* line 3148, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3192, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-special__text-special {
     margin-bottom: 10px;
   }
-  /* line 3150, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3194, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-special__text-stage {
     margin-bottom: 10px;
   }
-  /* line 3152, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3196, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-procedure__img1 {
     width: 100%;
     height: auto;
   }
-  /* line 3155, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3199, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-procedure__img2 {
     width: 100%;
     height: auto;
   }
-  /* line 3158, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3202, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-procedure__wrapper {
     margin-bottom: 20px;
   }
-  /* line 3160, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3204, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-equipment__wrapper {
     display: block;
   }
-  /* line 3162, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3206, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-equipment__img {
     margin-bottom: 0;
   }
-  /* line 3164, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3208, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-equipment__title2 {
     margin-top: 10px;
   }
-  /* line 3166, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3210, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-equipment__block {
     margin-left: 20px;
     padding-bottom: 13px;
   }
-  /* line 3169, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3213, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-photo__wrapper {
     display: flex;
     overflow-x: auto;
@@ -5495,337 +5564,337 @@ input[type='num'] {
 }
 
 @media (max-width: 690px) {
-  /* line 3176, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3220, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog-display-left {
     display: block;
   }
-  /* line 3178, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3222, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog-block__uslugi {
     margin-bottom: 20px;
   }
-  /* line 3180, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3224, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__par1 {
     display: block;
   }
-  /* line 3182, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3226, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1-part3 {
     display: block;
   }
-  /* line 3184, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3228, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1-part3__img {
     margin-bottom: 0;
   }
-  /* line 3186, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3230, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1-part3__texts {
     margin-left: 20px;
   }
 }
 
 @media (max-width: 490px) {
-  /* line 3190, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3234, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__img {
     width: 449px;
     height: 481px;
   }
-  /* line 3193, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3237, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__title {
     font-size: 32px;
     margin-bottom: 18px;
   }
-  /* line 3196, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3240, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__btn {
     font-size: 18px;
     padding: 17px 45px;
     border-radius: 15px;
   }
-  /* line 3200, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3244, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__square1 {
     width: 64px;
     height: 64px;
   }
-  /* line 3203, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3247, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__square2 {
     width: 64px;
     height: 64px;
   }
-  /* line 3206, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3250, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__square3 {
     width: 64px;
     height: 64px;
   }
-  /* line 3209, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3253, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__square1-text1 {
     font-size: 24px;
   }
-  /* line 3211, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3255, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__square1-text2 {
     font-size: 16px;
   }
-  /* line 3213, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3257, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__square2-text1 {
     font-size: 24px;
   }
-  /* line 3215, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3259, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__square2-text2 {
     font-size: 16px;
   }
-  /* line 3217, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3261, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__square3-text1 {
     font-size: 24px;
   }
-  /* line 3219, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3263, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .main-section__square3-text2 {
     font-size: 16px;
   }
-  /* line 3221, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3265, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__title-mini {
     font-size: 20px;
   }
-  /* line 3223, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3267, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__text-mini {
     font-size: 14px;
   }
-  /* line 3225, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3269, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__img {
     width: 181px;
     height: 181px;
   }
-  /* line 3228, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3272, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__wrapper-first {
     margin-right: 20px;
   }
-  /* line 3230, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3274, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__wrapper-second {
     margin-right: 20px;
   }
-  /* line 3232, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3276, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__wrapper-third {
     margin-right: 20px;
   }
-  /* line 3234, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3278, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__wrapper-fourth {
     margin-right: 20px;
   }
-  /* line 3236, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3280, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__width1 {
     max-width: 211px;
   }
-  /* line 3238, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3282, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__width2 {
     max-width: 211px;
   }
-  /* line 3240, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3284, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__width3 {
     max-width: 211px;
   }
-  /* line 3242, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3286, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .second-section__width4 {
     max-width: 211px;
   }
-  /* line 3244, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3288, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .third-section__wrapper {
     display: block;
   }
-  /* line 3246, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3290, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .third-section__wrapper-first {
     margin-right: 0;
     margin-bottom: 20px;
   }
-  /* line 3249, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3293, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fourth-section__block1 {
     width: 375px;
   }
-  /* line 3251, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3295, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fourth-section__block2 {
     width: 375px;
   }
-  /* line 3253, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3297, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fourth-section__block3 {
     width: 375px;
   }
-  /* line 3255, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3299, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fourth-section__block4 {
     width: 375px;
   }
-  /* line 3257, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3301, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fourth-section__block5 {
     width: 375px;
   }
-  /* line 3259, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3303, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fourth-section__block1-img {
     width: 155px;
   }
-  /* line 3261, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3305, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__wrapper {
     display: block;
   }
-  /* line 3263, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3307, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__label1 {
     top: 1690px;
   }
-  /* line 3265, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3309, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .eight-section__label2 {
     top: 1780px;
   }
-  /* line 3267, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3311, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__title2-circle2 {
     top: 614px;
   }
-  /* line 3269, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3313, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .ninth-section__title3-circle3 {
     top: 1166px;
   }
-  /* line 3271, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3315, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__title2-circle2 {
     top: 996px;
   }
-  /* line 3273, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3317, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__wrapper2 {
     display: block;
   }
-  /* line 3275, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3319, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .tenth-section__block1 {
     margin-right: 0;
   }
-  /* line 3277, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3321, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__title {
     font-size: 27px;
   }
-  /* line 3279, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3323, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__par1-text1 {
     font-size: 16px;
   }
-  /* line 3281, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3325, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__par1-text2 {
     font-size: 16px;
   }
-  /* line 3283, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3327, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1-part2__text1 {
     font-size: 16px;
   }
-  /* line 3285, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3329, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1-part2__text2 {
     font-size: 16px;
   }
-  /* line 3287, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3331, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__title2 {
     font-size: 27px;
   }
-  /* line 3289, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3333, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1-part3__title {
     font-size: 20px;
   }
-  /* line 3291, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3335, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1-part3__text {
     font-size: 16px;
   }
-  /* line 3293, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3337, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1-part3__link {
     font-size: 14px;
   }
-  /* line 3295, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3339, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1-part4__text1 {
     font-size: 16px;
   }
-  /* line 3297, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3341, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1-part4__text2 {
     font-size: 16px;
   }
-  /* line 3299, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3343, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1-part4__text3 {
     font-size: 16px;
   }
-  /* line 3301, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3345, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1-part4__text4 {
     font-size: 16px;
   }
-  /* line 3303, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3347, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__title3 {
     font-size: 27px;
   }
-  /* line 3305, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3349, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog1__title4 {
     font-size: 27px;
   }
-  /* line 3307, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3351, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .article-section__title {
     font-size: 27px;
   }
-  /* line 3309, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3353, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .article-section__wrapper-first {
     display: block;
   }
-  /* line 3311, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3355, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .article-section__wrapper-second {
     display: block;
   }
-  /* line 3313, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3357, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .article-section__title2 {
     font-size: 20px;
   }
-  /* line 3315, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3359, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .article-section__text {
     font-size: 16px;
   }
-  /* line 3317, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3361, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .article-section__link {
     font-size: 14px;
   }
-  /* line 3319, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3363, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugi-staff__img {
     margin: 0;
   }
-  /* line 3321, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3365, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugi-staff__wrapper-block {
     top: 411px;
     left: 325px;
   }
-  /* line 3324, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3368, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .banner-section__img {
     width: 35%;
   }
-  /* line 3326, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3370, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .blog-banner__wrapper {
     display: none;
   }
-  /* line 3328, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3372, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl__wrapper1-button1 {
     font-size: 16px;
   }
-  /* line 3330, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3374, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl__wrapper1-button2 {
     font-size: 16px;
     padding: 15px 36px;
   }
-  /* line 3333, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3377, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl__title {
     font-size: 27px;
   }
-  /* line 3335, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3379, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .sixth-section__title {
     font-size: 27px;
   }
-  /* line 3337, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3381, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .fifth-section__title {
     font-size: 27px;
   }
-  /* line 3339, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3383, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-procedure__title {
     font-size: 27px;
   }
-  /* line 3341, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3385, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-equipment__title {
     font-size: 27px;
   }
-  /* line 3343, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3387, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-photo__title {
     font-size: 27px;
   }
-  /* line 3345, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3389, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .uslugivl-questions__title {
     font-size: 27px;
   }
-  /* line 3347, ../vs_code/html/73-website-allgladko/sass/style.sass */
+  /* line 3391, ../vs_code/html/73-website-allgladko/sass/style.sass */
   .strelka-display__none {
     display: none;
   }
