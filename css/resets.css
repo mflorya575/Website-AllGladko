@@ -1,4 +1,4 @@
-/* line 1, ../vs_code/html/73-landing-allgladko/sass/resets.scss */
+/* line 1, ../vs_code/html/73-website-allgladko/sass/resets.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,40 +20,40 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 21, ../vs_code/html/73-landing-allgladko/sass/resets.scss */
+/* line 21, ../vs_code/html/73-website-allgladko/sass/resets.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 25, ../vs_code/html/73-landing-allgladko/sass/resets.scss */
+/* line 25, ../vs_code/html/73-website-allgladko/sass/resets.scss */
 html {
   height: 100%;
 }
 
-/* line 28, ../vs_code/html/73-landing-allgladko/sass/resets.scss */
+/* line 28, ../vs_code/html/73-website-allgladko/sass/resets.scss */
 body {
   line-height: 1;
 }
 
-/* line 31, ../vs_code/html/73-landing-allgladko/sass/resets.scss */
+/* line 31, ../vs_code/html/73-website-allgladko/sass/resets.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 34, ../vs_code/html/73-landing-allgladko/sass/resets.scss */
+/* line 34, ../vs_code/html/73-website-allgladko/sass/resets.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 37, ../vs_code/html/73-landing-allgladko/sass/resets.scss */
+/* line 37, ../vs_code/html/73-website-allgladko/sass/resets.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 42, ../vs_code/html/73-landing-allgladko/sass/resets.scss */
+/* line 42, ../vs_code/html/73-website-allgladko/sass/resets.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
